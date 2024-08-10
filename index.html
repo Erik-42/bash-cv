@@ -1,21 +1,88 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
   <head>
-    <title>John Smith</title>
-    <link rel="icon" href="src/icon.ico">
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <script src="js/main.js"></script>
+    <title>Erik Mesen</title>
+
+    <meta charset="utf-8" />
+
+    <!-- HTML Meta Tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Pour en savoir plus sur moi" />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://erik-42.github.io/bash-cv/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Erik Mesen" />
+    <meta property="og:description" content="Pour en savoir plus sur moi" />
+    <meta property="og:image" content="./src/assets/logos/screenshot.png" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="erik-42.github.io" />
+    <meta property="twitter:url" content="https://erik-42.github.io/bash-cv/" />
+    <meta name="twitter:title" content="Erik Mesen" />
+    <meta name="twitter:description" content="Pour en savoir plus sur moi" />
+    <meta name="twitter:image" content="./src/assets/logos/screenshot.png" />
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+    <!-- Link -->
+    <link rel="icon" href="./src/assets/icones/icon.ico" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href="#"
+      type="image/webp"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Script -->
+    <script
+      src="https://kit.fontawesome.com/4ec6d39a0c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/main.js"></script>
   </head>
+
   <body>
-
     <div class="container">
-
       <div id="sidebar">
-        <h1>John Smith</h1>
-        <img src="src/profile.jpg" alt="Profile Picture" id="profile">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h1>Erik Mesen</h1>
+        <img
+          src="./src/assets/img/Photo-Mesen.jpg"
+          alt="Profile Picture"
+          id="profile"
+        />
+        <p>
+          Créatif, Autonome, Curieux Esprit d'analyse Esprit d'équipe Force de
+          proposition Capacités d'adaptation Développeur web junior, je suis
+          dynamique et j’aime travailler en équipe pour relever des challenges
+          techniques. J’ai une bonne maîtrise des outils de développement et je
+          suis en constante recherche d’apprentissage.
+        </p>
       </div>
 
       <div id="terminal">
@@ -26,18 +93,27 @@
         -->
         <div id="injected"></div>
         <div id="userInput">
-          <input type="text" value="root@John Smith's Website:~$" id="prompt" size = "28" readonly="readonly">
-          <input type="text" id="txtBox" onkeypress="commandProcessor(event)" placeholder="Enter help for commands list" size = "40" autofocus>
+          <input
+            type="text"
+            value="root@Erik Mesen's Website:~$"
+            id="prompt"
+            size="28"
+            readonly="readonly"
+          />
+          <input
+            type="text"
+            id="txtBox"
+            onkeypress="commandProcessor(event)"
+            placeholder="Enter help for commands list"
+            size="40"
+            autofocus
+          />
         </div>
       </div>
-
     </div>
 
     <footer>
-      <p id="Copyright">
-        ©Copyright 2018 CedArctic
-      </p>
+      <p id="Copyright">©Copyright 2024 Erik-42</p>
     </footer>
-
   </body>
 </html>
