@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: var(--font-default);
+}
+
+:root {
+  --font-default: "Lucida Console", "Lucida Sans Unicode", "Courier New";
+
+  --defaultBackgroundColor: white;
+  --defaultFontColor: black;
+
+  --primaryBgColor: #1d1f21;
+  --primaryFontColor: white;
+  //   --secondaryBgColor: yellow;
+  --sidebarFontColor: #58d49f;
+  --introFontColor: #de935f;
+  --promptFontColor: #f0c674;
+  --textBoxFontColor: #b5bd68;
+  --CopyrightFontColor: #373b41;
+}
+
+body {
+  font-family: var(--font-default);
+  color: var(--primaryFontColor);
+  background-color: var(--primaryBgColor);
+}
+a {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: inherit;
+}
