@@ -37,7 +37,11 @@ function help() {
 }
 
 function about() {
-  return "<p>Développeur web, je suis dynamique et j aime travailler en équipe pour relever des challenges techniques.<br>J ai une bonne maîtrise des outils de développement et je suis en constante recherche d apprentissage.</p>";
+  return `<p>Créatif, Autonome, Curieux Esprit d'analyse Esprit d'équipe Force de
+          proposition Capacités d'adaptation Développeur web junior, je suis
+          dynamique et j’aime travailler en équipe pour relever des challenges
+          techniques. J’ai une bonne maîtrise des outils de développement et je
+          suis en constante recherche d’apprentissage.</p>`;
 }
 
 function skills() {
@@ -62,6 +66,10 @@ function skills() {
         </tr>
         <tr>
           <td>React</td>
+          <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>
+        </tr>
+         <tr>
+          <td>Redux</td>
           <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>
         </tr>
         <tr>
@@ -92,6 +100,10 @@ function skills() {
         </tr>
         <tr>
           <td>MySQL</td>
+          <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>
+        </tr>
+        <tr>
+          <td>MongoDB</td>
           <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>
         </tr>
         <tr>
@@ -170,13 +182,14 @@ function skills() {
 }
 
 function resumeProjects() {
-  return "<p>Projets Personnel:<br>Une application de gestion de tâches personnelle utilisant React et Node.js.\
-  <br>Projet Professionnel:<br>Développement d'une plateforme d'e-learning pour une entreprise utilisant Moodle et PHP.</p>";
+  return `<span style="color: #b5bd68;"><h2>Projects:</h2></span><p>Projets Personnel:<br>Une application de gestion de tâches personnelle utilisant React et Node.js.\
+  <br>Projet Professionnel:<br>Développement d'une plateforme d'e-learning pour une entreprise utilisant Moodle et PHP.</p>`;
 }
 
 function projects() {
-  return `<span style="color: #b5bd68;"><h2>Projects:</h2></span><ul>\<p>Projet Personnel:<br>Une application de gestion de tâches personnelle utilisant React et Node.js.\
-  <br>Projet Professionnel:<br>Développement d'une plateforme d'e-learning pour une entreprise utilisant Moodle et PHP.</p>`;
+  return `<span style="color: #b5bd68;"><h2>Projects:</h2></span><ul>\
+  <li>Projet personnel 1:<br>Une application de gestion de tâches personnelle utilisant React et Node.js.</li>\
+  <li>Projet Professionnel:<br>Développement d'une plateforme d'e-learning pour une entreprise utilisant Moodle et PHP.</li>`;
 }
 
 function links() {
@@ -219,6 +232,14 @@ function contact() {
 }
 
 function cv() {
+   const cv = window.open(
+        './src/assets/data/Erik-Mesen_CV.pdf',"_blank"
+      );
+      cv.focus();
+  return '<span style="color:#8abeb7;"><h2>CV:</h2></span><p>\tDownload from <a href="../src/assets/data/Erik-Mesen_CV_2023.pdf" target="_blank" style="text-decoration: underline;">here</a>.</p>';
+}
+
+function cvDownload() {
   return '<span style="color:#8abeb7;"><h2>CV:</h2></span><p>\tDownload from <a href="../src/assets/data/Erik-Mesen_CV_2023.pdf" target="_blank" style="text-decoration: underline;">here</a>.</p>';
 }
 
@@ -227,7 +248,12 @@ function credits() {
 }
 
 function rickroll() {
-  return "<p>We're no strangers to love<br>\
+    const win = window.open(
+        "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "_blank"
+      );
+      win.focus();
+  return `<p>We're no strangers to love<br>\
     You know the rules and so do I<br>\
     A full commitment's what I'm thinking of<br>\
     You wouldn't get this from any other guy<br>\
@@ -300,7 +326,7 @@ function rickroll() {
     Never gonna run around and desert you<br>\
     Never gonna make you cry<br>\
     Never gonna say goodbye<br>\
-    Never gonna tell a lie and hurt you</p>";
+    Never gonna tell a lie and hurt you</p>`;
 }
 
 // Main Function
@@ -328,7 +354,7 @@ function commandProcessor(e) {
         "\n\n\n" +
         contact() +
         "\n\n\n" +
-        cv();
+        cvDownload();
     } else if (txtInput == "about") {
       document.getElementById("injected").innerHTML = about();
     } else if (txtInput == "skills") {
@@ -340,13 +366,17 @@ function commandProcessor(e) {
     } else if (txtInput == "contact") {
       document.getElementById("injected").innerHTML = contact();
     } else if (txtInput == "cv") {
+      // const cv = window.open(
+      //   './src/assets/data/Erik-Mesen_CV.pdf',"_blank"
+      // );
+      // cv.focus();
       document.getElementById("injected").innerHTML = cv();
     } else if (txtInput == "rickroll") {
-      const win = window.open(
-        "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "_blank"
-      );
-      win.focus();
+      // const win = window.open(
+      //   "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      //   "_blank"
+      // );
+      // win.focus();
       document.getElementById("injected").innerHTML = rickroll();
     } else if (txtInput == "credits") {
       document.getElementById("injected").innerHTML = credits();
