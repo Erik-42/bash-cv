@@ -1,7 +1,40 @@
+@charset "UTF-8";
+
+/* Réinitialisation globale */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: var(--font-default);
+}
+
+/* Variables CSS */
+:root {
+  --font-default: "Lucida Console", "Lucida Sans Unicode", "Courier New";
+  --defaultBackgroundColor: white;
+  --defaultFontColor: black;
+  --primaryBgColor: #1d1f21;
+  --primaryFontColor: white;
+  --sidebarFontColor: #58d49f;
+  --introFontColor: #de935f;
+  --promptFontColor: #f0c674;
+  --textBoxFontColor: #b5bd68;
+  --CopyrightFontColor: #373b41;
+  --helpTitleColor: #eb926d;
+  --skillsTitleColor: #81a2be;
+  --projectsTitleColor: #b5bd68;
+  --contactTitleColor: #cc6666;
+  --cvTitleColor: #8abeb7;
+  --injectedBgColor: #1d1f21;
+}
+
+/* Styles généraux */
 body {
-  font-family: "Lucida Console", "Lucida Sans Unicode", "Courier New";
-  color: white;
-  background-color: #1d1f21;
+  font-family: var(--font-default);
+  color: var(--primaryFontColor);
+  background-color: var(--primaryBgColor);
 }
 
 a {
@@ -10,51 +43,116 @@ a {
   text-decoration: inherit;
 }
 
+/* Titres */
+.helpTitle {
+  color: var(--helpTitleColor);
+}
+
+.skillsTitle, .skillsSubTitle {
+  color: var(--skillsTitleColor);
+}
+
+.projectsTitle, .linksTitle {
+  color: var(--projectsTitleColor);
+}
+
+.contactTitle {
+  color: var(--contactTitleColor);
+}
+
+.cvTitle {
+  color: var(--cvTitleColor);
+}
+
+.about, .creditTitle {
+  color: var(--primaryFontColor);
+}
+
+/* Conteneur pour les compétences */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */
+  gap: 20px; /* Espacement entre les colonnes */
+}
+
+/* Sections des compétences */
+.skills-section {
+  background-color: var(--primaryBgColor);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Tables des compétences */
+.skills-table {
+  width: 100%;
+}
+
+.skills-table td {
+  padding: 5px 80px 0 30px;
+  text-align: left;
+}
+
+.skills-table td:last-child {
+  text-align: right;
+}
+.cvTitle{
+  margin: 1rem 0;
+}
+.cvIframe{
+  height: 92rem;
+  border: none;
+  width: 100%;
+}
+.videoIframe{
+  width: 560px;
+  height: 315px;
+}
+/* Responsiveness pour petits écrans */
+@media (max-width: 768px) {
+  .skills-container {
+    grid-template-columns: 1fr; /* Une colonne pour les petits écrans */
+  }
+}
+
+/* Sidebar */
 #sidebar {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 5rem;
-  /* margin-top: 0.5%; */
   text-align: justify;
-}
-.bio{
-  margin:1.5rem 0
-}
-#terminal {
-  margin: 5%;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
 }
 
 #sidebar h1 {
-  color: #0f4c31;
+  color: var(--sidebarFontColor);
   font-size: 52px;
 }
 
+/* Profile */
 #profile {
   max-width: 100%;
 }
 
+/* Introduction */
 #intro {
-  color: #de935f;
+  color: var(--introFontColor);
   text-align: justify;
 }
 
+/* Terminal */
+#terminal {
+  margin: 5%;
+}
+
+/* Command Input */
 #prompt {
   float: left;
   width: auto;
   font-size: 22px;
   vertical-align: middle;
-  box-sizing: border-box;
-  background-color: #1d1f21;
-  color: #f0c674;
+  background-color: var(--primaryBgColor);
+  color: var(--promptFontColor);
   border: none;
 }
 
@@ -63,43 +161,49 @@ a {
   width: auto;
   font-size: 22px;
   vertical-align: middle;
-  background-color: #1d1f21;
-  color: #b5bd68;
-  box-sizing: border-box;
-  /* border: none; */
+  background-color: var(--primaryBgColor);
+  color: var(--textBoxFontColor);
   border: grey solid 2px;
 }
 
+/* Copyright */
 #Copyright {
-  color: #373b41;
+  color: var(--CopyrightFontColor);
   margin: 2%;
 }
 
+/* Injected Content */
 #injected {
   font-size: 15px;
-  color: white;
+  color: var(--primaryFontColor);
   text-align: justify;
   margin-top: 2%;
+  background-color: var(--injectedBgColor);
 }
 
 #injected ul {
   list-style: none;
 }
 
-#injected li,
-th,
-td {
-  padding-right: 45px;
-  padding-left: 25px;
-  padding-top: 7px;
-
+#injected li, th, td {
+  padding: 7px 25px 7px 45px;
   text-align: left;
 }
 
+/* User Input */
 #userInput {
   margin-top: 20px;
 }
 
+/* Flex Container */
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+/* Responsive Design */
 @media (min-width: 1024px) {
   #sidebar {
     flex-basis: 20%;
@@ -110,19 +214,24 @@ td {
 
   #terminal {
     flex-basis: 72%;
-    flex-direction: row;
-    margin-top: 2%;
-    margin-right: 2%;
-    margin-left: auto;
-    margin-bottom: auto;
-  }
-
-  body {
-    overflow-x: hidden;
+    margin: 2% auto;
   }
 }
+
 @media (max-width: 1024px) {
   #sidebar h1 {
     font-size: 10vw;
   }
+}
+/* Section CV */
+.cvTitle {
+  color: var(--cvTitleColor);
+}
+
+#cvSection {
+  margin-top: 2%;
+}
+
+iframe {
+  border: none;
 }
