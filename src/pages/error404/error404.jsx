@@ -1,7 +1,7 @@
 import React from 'react';
 import './__error404.scss'; // Import des styles de la page d'erreur
 
-function Error404() {
+export default function Error404() {
   return (
     <div className='error404'>
       <h1>404 - Page non trouvée</h1>
@@ -12,4 +12,3 @@ function Error404() {
   );
 }
 
-export default Error404;

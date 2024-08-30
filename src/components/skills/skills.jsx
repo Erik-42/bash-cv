@@ -1,14 +1,14 @@
 import React from 'react';
-import styles from './__skills.scss'; // Assurez-vous que le fichier CSS Modules existe
+import   './__skills.scss'; // Assurez-vous que le fichier CSS Modules existe
 
-export function Skills() {
+export default function Skills() {
   return (
     <div>
-      <h2 className={styles.skillsTitle}>Skills:</h2>
-      <div className={styles.skillsContainer}>
-        <div className={styles.skillsSection}>
-          <h3 className={styles.skillsSubTitle}>Frontend:</h3>
-          <table className={styles.skillsTable}>
+      <h2 className='skillsTitle'>Skills:</h2>
+      <div className='skillsContainer'>
+        <div className='skillsSection'>
+          <h3 className='skillsSubTitle'>Frontend:</h3>
+          <table className='skillsTable'>
             <tbody>
               <tr>
                 <td>HTML</td>
@@ -41,9 +41,9 @@ export function Skills() {
             </tbody>
           </table>
         </div>
-<div className={styles.skillsSection}>
-          <h3 className={styles.skillsSubTitle}>Backend:</h3>
-          <table className={styles.skillsTable}>
+<div className='skillsSection'>
+          <h3 className='skillsSubTitle'>Backend:</h3>
+          <table className='skillsTable'>
             <tbody>
               <tr>
                 <td>Node.js</td>
@@ -72,9 +72,9 @@ export function Skills() {
             </tbody>
           </table>
         </div>
-        <div className={styles.skillsSection}>
-          <h3 className={styles.skillsSubTitle}>Design:</h3>
-          <table className={styles.skillsTable}>
+        <div className='skillsSection'>
+          <h3 className='skillsSubTitle'>Design:</h3>
+          <table className='skillsTable'>
             <tbody>
               <tr>
                 <td>Figma</td>
@@ -95,9 +95,9 @@ export function Skills() {
             </tbody>
           </table>
         </div>
-        <div className={styles.skillsSection}>
-          <h3 className={styles.skillsSubTitle}>Tools:</h3>
-          <table className={styles.skillsTable}>
+        <div className='skillsSection'>
+          <h3 className='skillsSubTitle'>Tools:</h3>
+          <table className='skillsTable'>
             <tbody>
               <tr>
                 <td>WordPress</td>

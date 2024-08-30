@@ -1,18 +1,37 @@
-// Sidebar
-#sidebar {
+.sidebar {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  margin: 0 5rem;
-  text-align: justify;
+  width: 20rem; /* Définit la largeur de la sidebar */
+  padding: 2rem 1rem; /* Ajoute un peu de padding pour l'espace interne */
+  // margin-right: 3rem; /* Espace à droite de la sidebar */
+  background-color: var(--sidebarBgColor); /* Ajout d'une couleur de fond si souhaité */
+  text-align: center; /* Centre le texte à l'intérieur des éléments */
 
-  h1 {
-    color: var(--sidebarFontColor);
-    font-size: 52px;
+  &__logo {
+    width: 80%; /* Taille de l'image du logo */
+    margin-bottom: 1rem;
   }
 
-  #profile {
-    max-width: 100%;
+  &__titleName {
+    color: var(--sidebarFontColor);
+    font-size: 2rem;
+    margin: 1rem 0; /* Ajoute un espace autour du titre */
+    display: none; /* S'assure que le titre est visible */
+  }
+
+  &__titlePhoto {
+    width: 80%; /* Taille de la photo de profil */
+    margin-bottom: 1rem;
+    // border-radius: 50%; /* Optionnel : rend la photo ronde */
+  }
+  
+  &__bio {
+    font-size: 12px;
+    width: 80%; /* Aligne la largeur du texte de la bio avec celle de l'image */
+    margin: 1rem 0;
+    line-height: 1.5; /* Améliore la lisibilité du texte */
+    text-align: justify; /* Justifie le texte pour une meilleure présentation */
   }
 }

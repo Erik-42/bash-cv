@@ -1,4 +1,28 @@
-
 .contactTitle {
   color: var(--contactTitleColor);
+  margin-bottom: 1rem; // Ajout d'un espace sous le titre
+}
+
+.contactTable {
+  width: 100%;
+  border-collapse: collapse; // Évite les espacements entre les cellules du tableau
+
+  td {
+    padding: 0.5rem;
+    vertical-align: top; // Aligne le texte en haut des cellules
+  }
+
+  .contactIcon {
+    width: 2rem; // Largeur fixe pour les icônes
+    text-align: center; // Centre les icônes dans les cellules
+  }
+
+  a {
+    color: var(--linkColor); // Assure que les liens ont une couleur distincte
+    text-decoration: none; // Enlève le soulignement des liens
+  }
+
+  a:hover {
+    text-decoration: underline; // Souligne les liens au survol
+  }
 }

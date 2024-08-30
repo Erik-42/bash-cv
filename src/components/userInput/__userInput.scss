@@ -1,4 +1,47 @@
-// User Input
-#userInput {
-  margin-top: 20px;
+/* __userInput.scss */
+.userInput {
+  display: flex;
+  flex-direction: column; /* Aligne les éléments verticalement */
+  align-items: flex-start;
+  width: 100%;
+
+  &__label {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: var(--labelFontColor);
+  }
+&__wrapper{
+  width:100%;
+  display: flex;
+  gap:1rem
+}
+  &__root {
+    width: auto;
+    font-size: 15px;
+    background-color: var(--primaryBgColor);
+    color: var(--promptFontColor);
+    border: none;
+    padding: 0.5rem;
+    // margin-bottom: 10px; /* Espace entre root et output */
+  }
+
+  &__prompt {
+    width: 100%;
+    font-size: 15px;
+    background-color: var(--primaryBgColor);
+    color: var(--textBoxFontColor);
+    border: 1px grey;
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+
+  &__output {
+    width: 100%;
+    background-color: var(--outputBgColor);
+    color: var(--outputFontColor);
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Espace entre output et prompt */
+    overflow-wrap: break-word; /* Gère les longs mots ou URL */
+  }
 }

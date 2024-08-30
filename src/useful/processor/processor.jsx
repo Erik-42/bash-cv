@@ -11,7 +11,7 @@ import { cv, cvDownload } from '../../components/cv/cv';
 import { rickroll } from '../../components/rickroll/rickroll';
 import { credits } from '../../components/credits/credits';
 
-function commandProcessor(event) {
+export default function CommandProcessor(event) {
   if (event.key === 'Enter') {
     const txtInput = event.target.value.trim().toLowerCase(); // Utiliser event.target pour obtenir la valeur
     const commands = {

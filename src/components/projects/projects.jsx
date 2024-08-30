@@ -1,10 +1,10 @@
 import React from 'react';
-import styled from './__projects.scss'; // Assurez-vous que ce fichier existe
+import   './__projects.scss'; // Assurez-vous que ce fichier existe
 
-export function ResumeProjects() {
+export default function ResumeProjects() {
   return (
-    <div className={styled.projectsContainer}>
-      <h2 className={styled.projectsTitle}>Projects:</h2>
+    <div className='projectsContainer'>
+      <h2 className='projectsTitle'>Projects:</h2>
       <p>Projets Personnel:</p>
       <p>Une application de gestion de tâches personnelle utilisant React et Node.js.</p>
       <p>Projet Professionnel:</p>
@@ -15,9 +15,9 @@ export function ResumeProjects() {
 
 export function Projects() {
   return (
-    <div className={styled.projectsContainer}>
-      <h2 className={styled.projectsTitle}>Projects:</h2>
-      <ul className={styled.projectsList}>
+    <div className='projectsContainer'>
+      <h2 className='projectsTitle'>Projects:</h2>
+      <ul className='projectsList'>
         <li>
           Projet personnel 1:<br />
           Une application de gestion de tâches personnelle utilisant React et Node.js.

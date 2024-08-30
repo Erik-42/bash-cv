@@ -1,11 +1,11 @@
 import React from 'react';
-import styled from './__rickroll.scss'; // Correction de l'import
+import   './__rickroll.scss'; // Correction de l'import
 
-function Rickroll() {
+export default function Rickroll() {
   return (
-    <div className={styled.rickroll}>
+    <div className='rickroll'>
       <iframe 
-        className={styled.videoIframe}
+        className='videoIframe'
         src="https://www.youtube.com/embed/dQw4w9WgXcQ"
         title="YouTube video player"
         frameBorder="0"
@@ -55,4 +55,3 @@ function Rickroll() {
   );
 }
 
-export default Rickroll;

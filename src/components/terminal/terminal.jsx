@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./__terminal.scss"; // Import des styles spécifiques au Terminal
+import UserInput from '../userInput/userInput';
 
-function Terminal() {
+export default function Terminal() {
   const [inputValue, setInputValue] = useState("");
 
   const handleChange = (e) => {
@@ -9,49 +10,15 @@ function Terminal() {
   };
 
   return (
-    <main id="terminal" className='terminal'>
-      <div id="injected"></div>
-      <div id="userInput">
-        <label htmlFor="txtBox" className="sr-only">
-          Entrer une commande
-        </label>
-        <input
-          type="text"
-          value="root@Erik Mesen's Website:~$"
-          id="prompt"
-          size="28"
-          readOnly
-          className='prompt'
-        />
-        <input
-          type="text"
-          id="txtBox"
-          placeholder="Enter help for commands list"
-          size="40"
-          autoFocus
-          value={inputValue}
-          onChange={handleChange}
-          className='txtBox'
-          aria-label="Terminal input"
+    <main className='terminal'>
+      <div className='terminal__injected' id="injected"></div>
+      <div className='terminal__userRoot'>
+        <UserInput
+          inputValue={inputValue}
+          handleChange={handleChange}
         />
       </div>
     </main>
   );
 }
 
-export default Terminal;
-
-// import React from 'react';
-// import './__terminal.scss';
-// import UserInput from '../userInput/userInput';
-
-// function Terminal() {
-//   return (
-//     <main id="terminal">
-//       <div id="injected"></div>
-//       <UserInput />
-//     </main>
-//   );
-// }
-
-// export default Terminal;

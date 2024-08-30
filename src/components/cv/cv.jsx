@@ -1,18 +1,16 @@
 import React from 'react';
-import styles from './__cv.scss';
+import   './__cv.scss';
 
-export function Cv() {
+export default function Cv() {
   return (
-    <div className={styles.cvContainer}>
-      <h2 className={styles.cvTitle}>CV:</h2>
-      <p style={{ textAlign: 'left' }}>Voici mon CV</p>
+    <div className='cv'>
+      <h2 className='cv__title'>CV:</h2>
+      <p className='cv__text'>Voici mon CV</p>
       <iframe
-        className={styles.cvIframe}
+        className='cv__iframe'
         src="/assets/data/Erik-Mesen_CV.pdf"
         type="application/pdf"
         title="CV Erik Mesen"
-        width="100%"
-        height="600px"
       ></iframe>
     </div>
   );
@@ -21,14 +19,13 @@ export function Cv() {
 
 export function CvDownload() {
   return (
-    <div className={styles.cvContainer}>
-      <h2 className={styles.cvTitle}>CV:</h2>
-      <p style={{ textAlign: 'left' }}>
+    <div className='cv'>
+      <h2 className='cv__title'>CV:</h2>
+      <p className='cv__text'>
         Download from{' '}
         <a
           href="/assets/data/Erik-Mesen_CV_2023.pdf"
           target="_blank"
-          style={{ textDecoration: 'underline' }}
         >
           here
         </a>.

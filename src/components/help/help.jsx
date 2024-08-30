@@ -1,11 +1,11 @@
 import React from 'react';
-import styles from './__help.scss'; // Assurez-vous que le fichier help.scss existe
+import   './__help.scss'; // Assurez-vous que le fichier help.scss existe
 
-export function Help() {
+export default function Help() {
   return (
-    <div className={styles.helpContainer}>
-      <h2 className={styles.helpTitle}>Help:</h2>
-      <table className={styles.helpTable}>
+    <div className='helpContainer'>
+      <h2 className='helpTitle'>Help:</h2>
+      <table className='helpTable'>
         <tbody>
           <tr>
             <td>all</td>

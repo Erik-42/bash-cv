@@ -1,19 +1,17 @@
-/* Copyright */
-#Copyright {
-  color: var(--CopyrightFontColor);
-  margin: 2%;
-}
-// src/layout/footer/__footer.scss
 .footer {
-  background-color: var(--primaryBgColor);
+  // background-color: var(--primaryBgColor);
   color: var(--primaryFontColor);
   padding: 1rem;
   text-align: center;
-  position: fixed;
+  position: fixed; /* Position fixed pour que le footer reste en bas de la page */
   bottom: 0;
-  width: 100%;
-
-  p {
+  width: 100%; /* Assurez-vous que le footer occupe la largeur complète */
+  display: flex;
+  align-items: center; /* Centre le texte verticalement */
+  justify-content: center; /* Centre le texte horizontalement */
+  
+  &__copyright {
+    color: var(--copyrightFontColor);
     margin: 0;
   }
 }

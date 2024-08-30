@@ -1,15 +1,22 @@
 // CV
-.cvTitle {
-  color: var(--cvTitleColor);
-  margin: 1rem 0;
-}
+.cv{
 
-#cvSection {
-  margin-top: 2%;
-}
+  &__title {
+    color: var(--cvTitleColor);
+    margin: 1rem 0;
+  }
 
-.cvIframe {
-  height: 92rem;
-  border: none;
-  width: 100%;
+  &__text{
+    text-align: left;
+  }
+  
+  &__iframe {
+    height: 92rem;
+    border: none;
+    width: 100%;
+    height: 600px;
+  }
+  a{
+    text-decoration: underline;
+  }
 }
