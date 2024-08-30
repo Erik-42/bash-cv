@@ -1,7 +1,7 @@
 import React from 'react';
 import   './__projects.scss'; // Assurez-vous que ce fichier existe
 
-export default function ResumeProjects() {
+export function ResumeProjects() {
   return (
     <div className='projectsContainer'>
       <h2 className='projectsTitle'>Projects:</h2>
@@ -13,7 +13,7 @@ export default function ResumeProjects() {
   );
 }
 
-export function Projects() {
+export default function Projects() {
   return (
     <div className='projectsContainer'>
       <h2 className='projectsTitle'>Projects:</h2>

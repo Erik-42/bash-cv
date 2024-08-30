@@ -1,5 +1,5 @@
 import React from 'react';
-import   './__cv.scss';
+import './__cv.scss';
 
 export default function Cv() {
   return (
@@ -9,13 +9,11 @@ export default function Cv() {
       <iframe
         className='cv__iframe'
         src="/assets/data/Erik-Mesen_CV.pdf"
-        type="application/pdf"
         title="CV Erik Mesen"
       ></iframe>
     </div>
   );
 }
-
 
 export function CvDownload() {
   return (
@@ -26,6 +24,7 @@ export function CvDownload() {
         <a
           href="/assets/data/Erik-Mesen_CV_2023.pdf"
           target="_blank"
+          rel="noopener noreferrer"
         >
           here
         </a>.
@@ -33,4 +32,3 @@ export function CvDownload() {
     </div>
   );
 }
-

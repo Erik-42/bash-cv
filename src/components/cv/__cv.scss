@@ -1,22 +1,21 @@
-// CV
-.cv{
-
+.cv {
   &__title {
     color: var(--cvTitleColor);
     margin: 1rem 0;
   }
 
-  &__text{
+  &__text {
     text-align: left;
+    margin-bottom: 1rem;
   }
-  
+
   &__iframe {
-    height: 92rem;
     border: none;
     width: 100%;
-    height: 600px;
+    height: 600px; /* Ajustez la hauteur selon vos besoins */
   }
-  a{
+
+  a {
     text-decoration: underline;
   }
 }

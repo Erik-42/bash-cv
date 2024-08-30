@@ -1,28 +1,27 @@
-/* __userInput.scss */
 .userInput {
   display: flex;
   flex-direction: column; /* Aligne les éléments verticalement */
   align-items: flex-start;
   width: 100%;
 
-  &__label {
-    font-size: 15px;
-    margin-bottom: 5px;
-    color: var(--labelFontColor);
+  &__wrapper {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
   }
-&__wrapper{
-  width:100%;
-  display: flex;
-  gap:1rem
-}
+
   &__root {
     width: auto;
     font-size: 15px;
     background-color: var(--primaryBgColor);
     color: var(--promptFontColor);
-    border: none;
+    border: none; /* Enlève la bordure */
     padding: 0.5rem;
-    // margin-bottom: 10px; /* Espace entre root et output */
+
+    &:focus {
+      outline: none; /* Enlève le contour par défaut au focus */
+      border: none; /* Assure qu'il n'y a pas de bordure */
+    }
   }
 
   &__prompt {
@@ -30,9 +29,14 @@
     font-size: 15px;
     background-color: var(--primaryBgColor);
     color: var(--textBoxFontColor);
-    border: 1px grey;
+    border: none; /* Enlève la bordure par défaut */
     padding: 0.5rem;
     box-sizing: border-box;
+
+    &:focus {
+      outline: none; /* Enlève le contour par défaut au focus */
+      border: none; /* Assure qu'il n'y a pas de bordure */
+    }
   }
 
   &__output {

@@ -5,12 +5,10 @@ import './__userInput.scss';
 import Help from '../help/help';
 import About from '../about/about';
 import Skills from '../skills/skills';
-import Projects from '../projects/projects';
-import ResumeProjects from '../projects/projects';
+import Projects,{ ResumeProjects } from '../projects/projects';
 import Links from '../links/links';
 import Contact from '../contacts/contacts';
-import CV from '../cv/cv';
-import CVDownload from '../cv/cv';
+import CV, { CvDownload } from '../cv/cv';
 import Rickroll from '../rickroll/rickroll';
 import Credits from '../credits/credits';
 
@@ -38,7 +36,7 @@ export default function UserInput() {
             <ResumeProjects />
             <Links />
             <Contact />
-            <CVDownload />
+            <CvDownload />
           </>
         ),
       };

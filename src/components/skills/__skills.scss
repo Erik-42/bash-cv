@@ -1,30 +1,34 @@
-// Skills
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
 .skillsTitle, .skillsSubTitle {
   color: var(--skillsTitleColor);
 }
 
-// Conteneur pour les compétences
-.skills-container {
+.skillsGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); // Deux colonnes de largeur égale
   gap: 20px; // Espacement entre les colonnes
+  width: 100%;
 
-  // Responsive pour petits écrans
   @media (max-width: 768px) {
     grid-template-columns: 1fr; // Une colonne pour les petits écrans
   }
 }
 
-// Sections des compétences
-.skills-section {
+.skillsSection {
   background-color: var(--primaryBgColor);
   padding: 20px;
   border-radius: 5px;
 }
 
-// Tables des compétences
-.skills-table {
+.skillsTable {
   width: 100%;
+  border-collapse: collapse; // Pour enlever les espaces entre les cellules
 
   td {
     padding: 7px 15px;

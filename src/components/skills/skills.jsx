@@ -1,11 +1,11 @@
 import React from 'react';
-import   './__skills.scss'; // Assurez-vous que le fichier CSS Modules existe
+import './__skills.scss'; // Assurez-vous que le fichier CSS Modules existe
 
 export default function Skills() {
   return (
-    <div>
+    <div className='skillsContainer'>
       <h2 className='skillsTitle'>Skills:</h2>
-      <div className='skillsContainer'>
+      <div className='skillsGrid'>
         <div className='skillsSection'>
           <h3 className='skillsSubTitle'>Frontend:</h3>
           <table className='skillsTable'>
@@ -41,7 +41,7 @@ export default function Skills() {
             </tbody>
           </table>
         </div>
-<div className='skillsSection'>
+        <div className='skillsSection'>
           <h3 className='skillsSubTitle'>Backend:</h3>
           <table className='skillsTable'>
             <tbody>
