@@ -5,6 +5,13 @@ import path from 'path';
 // Configuration Vite
 export default defineConfig({
   plugins: [react()],
+  // css: {
+  //   preprocessorOptions: {
+  //     scss: {
+  //       additionalData: `@import "@/styles/__variables.scss";` // Import global si nécessaire
+  //     }
+  //   }
+  // },
   resolve: {
     // Résolution des alias pour simplifier les importations
     alias: {
@@ -30,3 +37,4 @@ export default defineConfig({
   },
   // Autres configurations globales si nécessaires
 });
+

@@ -1,17 +1,5 @@
-import React from "react";
-import styles from "./__userInput.scss"; // Import du module de styles
-
-import { help } from './commands/help';
-import { about } from './commands/about';
-import { skills } from './commands/skills';
-import { projects } from './commands/projects';
-import { links } from './commands/links';
-import { contact } from './commands/contact';
-import { cv } from './commands/cv';
-import { rickroll } from './commands/rickroll';
-import { credits } from './commands/credits';
-import { resumeProjects } from './commands/projects'; // Si nécessaire
-import { cvDownload } from './commands/cv'; // Si nécessaire
+import React from 'react';
+import './__userInput.scss';
 
 function UserInput() {
   const commandProcessor = (e) => {
@@ -19,7 +7,7 @@ function UserInput() {
       const txtInput = e.target.value.trim().toLowerCase();
       const commands = {
         help,
-        all: () => about() + "<br><br>" + skills() + "<br><br>" + resumeProjects() + "<br><br>" + links() + "<br><br>" + contact() + "<br><br>" + cvDownload(),
+        all: () => about() + '<br><br>' + skills() + '<br><br>' + resumeProjects() + '<br><br>' + links() + '<br><br>' + contact() + '<br><br>' + cvDownload(),
         about,
         skills,
         projects,
@@ -30,15 +18,13 @@ function UserInput() {
         credits,
       };
 
-      document.getElementById("injected").innerHTML = commands[txtInput]
-        ? commands[txtInput]()
-        : help();
-      e.target.value = "";
+      document.getElementById('injected').innerHTML = commands[txtInput] ? commands[txtInput]() : help();
+      e.target.value = '';
     }
   };
 
   return (
-    <div id="userInput" className={styles.userInput}>
+    <div id="userInput">
       <label htmlFor="txtBox" className="sr-only">
         Entrer une commande
       </label>
@@ -48,16 +34,14 @@ function UserInput() {
         id="prompt"
         size="28"
         readOnly
-        className={styles.prompt}
       />
       <input
         type="text"
         id="txtBox"
-        onKeyDown={commandProcessor}
+        onKeyPress={commandProcessor}
         placeholder="Enter help for commands list"
         size="40"
         autoFocus
-        className={styles.txtBox}
       />
     </div>
   );

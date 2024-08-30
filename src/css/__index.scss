@@ -1,5 +1,16 @@
-// main.scss
-@import 'variables'; // Assurez-vous que le chemin est correct
-@import 'path/to/other/styles'; // Si nécessaire
+@import './__root';
+@import '../layout/sidebar/__sidebar';
+@import '../components/terminal/__terminal';
+@import '../components/skills/__skills';
+@import '../components/projects/__projects';
+@import '../components/cv/__cv';
+@import '../components/userInput/__userInput';
+@import '../pages/error404/__error404';
+@import '../pages/home/__home';
+@import '../css/__breakpoint';
 
-// Vos styles ici...
+// src/css/__index.scss
+@import './__variables.scss'; // Chemin vers le fichier variables.scss
+@import './__root.scss';      // Assurez-vous que __root.scss est également dans le bon répertoire
+@import './__mixin.scss';     // Assurez-vous que __mixin.scss est également dans le bon répertoire
+@import './__breakpoint.scss';// Assurez-vous que __breakpoint.scss est également dans le bon répertoire

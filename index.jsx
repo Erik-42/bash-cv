@@ -15,7 +15,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client'; // Importez createRoot depuis 'react-dom/client'
 import App from './App.jsx'; // Assurez-vous que ce chemin est correct
-import './src/css/index.module.scss';  // Assurez-vous que ce chemin est correct
+import './src/css/__index.scss';  // Assurez-vous que ce chemin est correct
 import './src/css/fontawesome.js'; // Importation de FontAwesome
 
 // Sélectionnez l'élément racine

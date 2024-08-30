@@ -1,7 +1,6 @@
-@import 'variables'; // Import des variables
-@import 'mixins'; // Import des mixins si nécessaire
+@import './__variables';
 
-// Réinitialisation globale
+/* Réinitialisation globale */
 * {
   box-sizing: border-box;
   margin: 0;

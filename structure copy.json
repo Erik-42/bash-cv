@@ -62,11 +62,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__about.scss",
+            "name": "about.jsx",
             "type": "file"
           },
           {
-            "name": "about.jsx",
+            "name": "about.module.scss",
             "type": "file"
           }
         ]
@@ -76,11 +76,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__contacts.scss",
+            "name": "contacts.jsx",
             "type": "file"
           },
           {
-            "name": "contacts.jsx",
+            "name": "contacts.module.scss",
             "type": "file"
           }
         ]
@@ -90,11 +90,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__credits.scss",
+            "name": "credits.jsx",
             "type": "file"
           },
           {
-            "name": "credits.jsx",
+            "name": "credits.module.scss",
             "type": "file"
           }
         ]
@@ -104,11 +104,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__cv.scss",
+            "name": "cv.jsx",
             "type": "file"
           },
           {
-            "name": "cv.jsx",
+            "name": "cv.module.scss",
             "type": "file"
           }
         ]
@@ -118,11 +118,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__help.scss",
+            "name": "help.jsx",
             "type": "file"
           },
           {
-            "name": "help.jsx",
+            "name": "help.module.scss",
             "type": "file"
           }
         ]
@@ -132,11 +132,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__links.scss",
+            "name": "links.jsx",
             "type": "file"
           },
           {
-            "name": "links.jsx",
+            "name": "links.module.scss",
             "type": "file"
           }
         ]
@@ -146,11 +146,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__projects.scss",
+            "name": "projects.jsx",
             "type": "file"
           },
           {
-            "name": "projects.jsx",
+            "name": "projects.module.scss",
             "type": "file"
           }
         ]
@@ -160,11 +160,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__rickroll.scss",
+            "name": "rickroll.jsx",
             "type": "file"
           },
           {
-            "name": "rickroll.jsx",
+            "name": "rickroll.modukle.scss",
             "type": "file"
           }
         ]
@@ -174,11 +174,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__skills.scss",
+            "name": "skills.jsx",
             "type": "file"
           },
           {
-            "name": "skills.jsx",
+            "name": "skills.module.scss",
             "type": "file"
           }
         ]
@@ -188,11 +188,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__terminal.scss",
+            "name": "terminal.jsx",
             "type": "file"
           },
           {
-            "name": "terminal.jsx",
+            "name": "terminal.module.scss",
             "type": "file"
           }
         ]
@@ -202,11 +202,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__userInput.scss",
+            "name": "userInput.jsx",
             "type": "file"
           },
           {
-            "name": "userInput.jsx",
+            "name": "userInput.module.scss",
             "type": "file"
           }
         ]
@@ -218,42 +218,22 @@
     "type": "directory",
     "children": [
       {
-        "name": "__breakpoint.scss",
+        "name": "breakpoint.module.scss",
         "type": "file"
       },
       {
-        "name": "__global.scss",
+        "name": "index.module.scss",
         "type": "file"
       },
       {
-        "name": "__index.scss",
-        "type": "file"
-      },
-      {
-        "name": "__injected.scss",
-        "type": "file"
-      },
-      {
-        "name": "__mixin.scss",
-        "type": "file"
-      },
-      {
-        "name": "__root.scss",
-        "type": "file"
-      },
-      {
-        "name": "__variables.scss",
-        "type": "file"
-      },
-      {
-        "name": "fontawesome.js",
-        "type": "file"
-      },
-      {
-        "name": "main.scss",
+        "name": "root.module.scss",
         "type": "file"
       }
     ]
+  },
+  {
+    "name": "index.jsx",
+    "type": "file"
   },
   {
     "name": "layout",
@@ -264,11 +244,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__footer.scss",
+            "name": "footer.jsx",
             "type": "file"
           },
           {
-            "name": "footer.jsx",
+            "name": "footer.module.scss",
             "type": "file"
           }
         ]
@@ -278,11 +258,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__header.scss",
+            "name": "header.jsx",
             "type": "file"
           },
           {
-            "name": "header.jsx",
+            "name": "header.module.scss",
             "type": "file"
           }
         ]
@@ -292,11 +272,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__main.scss",
+            "name": "main.jsx",
             "type": "file"
           },
           {
-            "name": "main.jsx",
+            "name": "main.module.scss",
             "type": "file"
           }
         ]
@@ -306,11 +286,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__sidebar.scss",
+            "name": "sidebar.jsx",
             "type": "file"
           },
           {
-            "name": "sidebar.jsx",
+            "name": "sidebar.module.scss",
             "type": "file"
           }
         ]
@@ -326,11 +306,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__error404.scss",
+            "name": "error404.jsx",
             "type": "file"
           },
           {
-            "name": "error404.jsx",
+            "name": "error404.module.scss",
             "type": "file"
           }
         ]
@@ -340,11 +320,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__home.scss",
+            "name": "home.jsx",
             "type": "file"
           },
           {
-            "name": "home.jsx",
+            "name": "home.module.scss",
             "type": "file"
           }
         ]
@@ -370,11 +350,11 @@
         "type": "directory",
         "children": [
           {
-            "name": "__processor.scss",
+            "name": "processor.jsx",
             "type": "file"
           },
           {
-            "name": "processor.jsx",
+            "name": "processor.module.scss",
             "type": "file"
           }
         ]

@@ -1,12 +1,14 @@
-@import 'variables';
-@import 'mixins';
-@import 'global';
-@import 'components/sidebar';
-@import 'components/terminal';
-@import 'components/skills';
-@import 'components/projects';
-@import 'components/cv';
-@import 'components/userInput';
-@import 'components/error404';
-@import 'components/home';
-@import 'components/injected';
+@import './__variables';
+@import './__mixin';
+@import './__global';
+
+@import './__root';
+@import '../layout/sidebar/__sidebar';
+@import '../components/terminal/__terminal';
+@import '../components/skills/__skills';
+@import '../components/projects/__projects';
+@import '../components/cv/__cv';
+@import '../components/userInput/__userInput';
+@import '../pages/error404/__error404';
+@import '../pages/home/__home';
+@import '../css/__injected';

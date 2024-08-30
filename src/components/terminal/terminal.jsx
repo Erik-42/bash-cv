@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./__terminal.scss"; // Import des styles spécifiques au Terminal
+import "./__terminal.scss"; // Import des styles spécifiques au Terminal
 
 function Terminal() {
   const [inputValue, setInputValue] = useState("");
@@ -9,7 +9,7 @@ function Terminal() {
   };
 
   return (
-    <main id="terminal" className={styles.terminal}>
+    <main id="terminal" className='terminal'>
       <div id="injected"></div>
       <div id="userInput">
         <label htmlFor="txtBox" className="sr-only">
@@ -21,7 +21,7 @@ function Terminal() {
           id="prompt"
           size="28"
           readOnly
-          className={styles.prompt}
+          className='prompt'
         />
         <input
           type="text"
@@ -31,7 +31,7 @@ function Terminal() {
           autoFocus
           value={inputValue}
           onChange={handleChange}
-          className={styles.txtBox}
+          className='txtBox'
           aria-label="Terminal input"
         />
       </div>
@@ -40,3 +40,18 @@ function Terminal() {
 }
 
 export default Terminal;
+
+// import React from 'react';
+// import './__terminal.scss';
+// import UserInput from '../userInput/userInput';
+
+// function Terminal() {
+//   return (
+//     <main id="terminal">
+//       <div id="injected"></div>
+//       <UserInput />
+//     </main>
+//   );
+// }
+
+// export default Terminal;
