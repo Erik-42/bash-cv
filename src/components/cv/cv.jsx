@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './cv.module.scss';
+import styles from './__cv.scss';
 
 export function Cv() {
   return (

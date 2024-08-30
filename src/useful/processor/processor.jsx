@@ -1,4 +1,5 @@
 import './processor.module.scss'; // Import des styles pour le processeur
+// import styled from './__processor.scss'
 
 import { help } from '../../components/help/help';
 import { about } from '../../components/about/about';

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Réinitialisation globale */
+// Réinitialisation globale
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,7 +10,7 @@
   font-family: var(--font-default);
 }
 
-/* Variables CSS */
+// Variables CSS
 :root {
   --font-default: "Lucida Console", "Lucida Sans Unicode", "Courier New";
   --defaultBackgroundColor: white;
@@ -30,7 +30,7 @@
   --injectedBgColor: #1d1f21;
 }
 
-/* Styles généraux */
+// Styles généraux
 body {
   font-family: var(--font-default);
   color: var(--primaryFontColor);
@@ -43,7 +43,7 @@ a {
   text-decoration: inherit;
 }
 
-/* Titres */
+// Titres
 .helpTitle {
   color: var(--helpTitleColor);
 }
@@ -68,42 +68,40 @@ a {
   color: var(--primaryFontColor);
 }
 
-/* Conteneur pour les compétences */
+// Conteneur pour les compétences
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */
-  gap: 20px; /* Espacement entre les colonnes */
+  grid-template-columns: repeat(2, 1fr); // Deux colonnes de largeur égale
+  gap: 20px; // Espacement entre les colonnes
+
+  // Responsiveness pour petits écrans
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr; // Une colonne pour les petits écrans
+  }
 }
 
-/* Sections des compétences */
+// Sections des compétences
 .skills-section {
   background-color: var(--primaryBgColor);
   padding: 20px;
   border-radius: 5px;
 }
 
-/* Tables des compétences */
+// Tables des compétences
 .skills-table {
   width: 100%;
-}
 
-.skills-table td {
-  padding: 7px 15px;
-  text-align: left;
-}
+  td {
+    padding: 7px 15px;
+    text-align: left;
 
-.skills-table td:last-child {
-  text-align: right;
-}
-
-/* Responsive pour petits écrans */
-@media (max-width: 768px) {
-  .skills-container {
-    grid-template-columns: 1fr; /* Une colonne pour les petits écrans */
+    &:last-child {
+      text-align: right;
+    }
   }
 }
 
-/* Sidebar */
+// Sidebar
 #sidebar {
   display: flex;
   flex-direction: column;
@@ -111,30 +109,48 @@ a {
   align-items: center;
   margin: 0 5rem;
   text-align: justify;
+
+  h1 {
+    color: var(--sidebarFontColor);
+    font-size: 52px;
+  }
+
+  @media (min-width: 1024px) {
+    flex-basis: 20%;
+    margin: 2%;
+    margin-top: 0.5%;
+    height: 100%;
+  }
+
+  @media (max-width: 1024px) {
+    h1 {
+      font-size: 10vw;
+    }
+  }
 }
 
-#sidebar h1 {
-  color: var(--sidebarFontColor);
-  font-size: 52px;
-}
-
-/* Profile */
+// Profile
 #profile {
   max-width: 100%;
 }
 
-/* Introduction */
+// Introduction
 #intro {
   color: var(--introFontColor);
   text-align: justify;
 }
 
-/* Terminal */
+// Terminal
 #terminal {
   margin: 5%;
+  
+  @media (min-width: 1024px) {
+    flex-basis: 72%;
+    margin: 2% auto;
+  }
 }
 
-/* Command Input */
+// Command Input
 #prompt {
   float: left;
   width: auto;
@@ -155,36 +171,36 @@ a {
   border: grey solid 2px;
 }
 
-/* Copyright */
+// Copyright
 #Copyright {
   color: var(--CopyrightFontColor);
   margin: 2%;
 }
 
-/* Injected Content */
+// Injected Content
 #injected {
   font-size: 15px;
   color: var(--primaryFontColor);
   text-align: justify;
   margin-top: 2%;
   background-color: var(--injectedBgColor);
+
+  ul {
+    list-style: none;
+  }
+
+  li, th, td {
+    padding: 7px 25px 7px 45px;
+    text-align: left;
+  }
 }
 
-#injected ul {
-  list-style: none;
-}
-
-#injected li, th, td {
-  padding: 7px 25px 7px 45px;
-  text-align: left;
-}
-
-/* User Input */
+// User Input
 #userInput {
   margin-top: 20px;
 }
 
-/* Flex Container */
+// Flex Container
 .container {
   display: flex;
   flex-direction: row;
@@ -192,7 +208,7 @@ a {
   justify-content: flex-start;
 }
 
-/* Responsive Design */
+// Responsive Design
 @media (min-width: 1024px) {
   #sidebar {
     flex-basis: 20%;

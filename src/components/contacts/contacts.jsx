@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './contacts.module.scss'; // Importation des styles
+import styles from './__contacts.scss'; // Importation des styles
 import { faAddressBook, faEnvelope, faPhone, faVoicemail } from '@fortawesome/free-solid-svg-icons';
 
 function Contact() { 

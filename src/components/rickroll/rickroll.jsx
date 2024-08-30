@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from './rickroll.module.scss'; // Correction de l'import
+import styled from './__rickroll.scss'; // Correction de l'import
 
 function Rickroll() {
   return (

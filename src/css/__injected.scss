@@ -1,0 +1,17 @@
+// Injected Content
+#injected {
+  font-size: 15px;
+  color: var(--primaryFontColor);
+  text-align: justify;
+  margin-top: 2%;
+  background-color: var(--injectedBgColor);
+
+  ul {
+    list-style: none;
+  }
+
+  li, th, td {
+    padding: 7px 25px 7px 45px;
+    text-align: left;
+  }
+}

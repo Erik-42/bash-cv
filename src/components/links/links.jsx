@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from './links.module.scss'; // Assurez-vous que ce fichier existe
+import styled from './__links.scss'; // Assurez-vous que ce fichier existe
 import { FaLinkedin, FaGithub } from 'react-icons/fa'; // Importer les icônes FontAwesome via react-icons
 
 function Links() {

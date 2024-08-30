@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./userInput.module.scss"; // Import du module de styles
+import styles from "./__userInput.scss"; // Import du module de styles
 
 import { help } from './commands/help';
 import { about } from './commands/about';

@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from './projects.module.scss'; // Assurez-vous que ce fichier existe
+import styled from './__projects.scss'; // Assurez-vous que ce fichier existe
 
 export function ResumeProjects() {
   return (

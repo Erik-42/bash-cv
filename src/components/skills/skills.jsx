@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './skills.module.scss'; // Assurez-vous que le fichier CSS Modules existe
+import styles from './__skills.scss'; // Assurez-vous que le fichier CSS Modules existe
 
 export function Skills() {
   return (

@@ -1,4 +1,9 @@
-/* Command Input */
+// Terminal
+#terminal {
+  margin: 5%;
+}
+
+// Command Input
 #prompt {
   float: left;
   width: auto;
@@ -19,7 +24,7 @@
   border: grey solid 2px;
 }
 
-/* User Input */
+// User Input
 #userInput {
   margin-top: 20px;
 }

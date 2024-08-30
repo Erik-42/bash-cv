@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./terminal.module.scss"; // Import des styles spécifiques au Terminal
+import styles from "./__terminal.scss"; // Import des styles spécifiques au Terminal
 
 function Terminal() {
   const [inputValue, setInputValue] = useState("");

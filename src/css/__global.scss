@@ -1,0 +1,24 @@
+@import 'variables'; // Import des variables
+@import 'mixins'; // Import des mixins si nécessaire
+
+// Réinitialisation globale
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: var(--font-default);
+}
+
+body {
+  font-family: var(--font-default);
+  color: var(--primaryFontColor);
+  background-color: var(--primaryBgColor);
+}
+
+a {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: inherit;
+}

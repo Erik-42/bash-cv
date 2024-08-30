@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './credits.module.scss'; // Importation correcte des styles
+import styles from './__credits.scss'; // Importation correcte des styles
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Credits() { // Nom du composant avec une majuscule

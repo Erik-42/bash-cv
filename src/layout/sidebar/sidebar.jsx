@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./sidebar.module.scss"; // Import des styles spécifiques au Sidebar
+import styles from "./__sidebar.scss"; // Import des styles spécifiques au Sidebar
 import photo from "../../assets/img/Photo-Mesen.jpg"; // Import de l'image de profil
 
 function Sidebar() {

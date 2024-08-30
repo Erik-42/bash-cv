@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './error404.module.scss'; // Import des styles de la page d'erreur
+import styles from './__error404.scss'; // Import des styles de la page d'erreur
 
 function Error404() {
   return (

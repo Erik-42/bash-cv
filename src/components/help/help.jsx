@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './help.module.scss'; // Assurez-vous que le fichier help.module.scss existe
+import styles from './__help.scss'; // Assurez-vous que le fichier help.scss existe
 
 export function Help() {
   return (
