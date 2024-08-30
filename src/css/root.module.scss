@@ -88,26 +88,15 @@ a {
 }
 
 .skills-table td {
-  padding: 5px 80px 0 30px;
+  padding: 7px 15px;
   text-align: left;
 }
 
 .skills-table td:last-child {
   text-align: right;
 }
-.cvTitle{
-  margin: 1rem 0;
-}
-.cvIframe{
-  height: 92rem;
-  border: none;
-  width: 100%;
-}
-.videoIframe{
-  width: 560px;
-  height: 315px;
-}
-/* Responsiveness pour petits écrans */
+
+/* Responsive pour petits écrans */
 @media (max-width: 768px) {
   .skills-container {
     grid-template-columns: 1fr; /* Une colonne pour les petits écrans */
@@ -222,16 +211,4 @@ a {
   #sidebar h1 {
     font-size: 10vw;
   }
-}
-/* Section CV */
-.cvTitle {
-  color: var(--cvTitleColor);
-}
-
-#cvSection {
-  margin-top: 2%;
-}
-
-iframe {
-  border: none;
 }

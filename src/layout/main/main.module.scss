@@ -1,0 +1,30 @@
+/* Injected Content */
+#injected {
+  font-size: 15px;
+  color: var(--primaryFontColor);
+  text-align: justify;
+  margin-top: 2%;
+  background-color: var(--injectedBgColor);
+}
+
+#injected ul {
+  list-style: none;
+}
+
+#injected li, th, td {
+  padding: 7px 25px 7px 45px;
+  text-align: left;
+}
+
+/* User Input */
+#userInput {
+  margin-top: 20px;
+}
+
+/* Flex Container */
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

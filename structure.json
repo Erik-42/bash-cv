@@ -1,0 +1,364 @@
+[
+  {
+    "name": "assets",
+    "type": "directory",
+    "children": [
+      {
+        "name": "data",
+        "type": "directory",
+        "children": [
+          {
+            "name": "Erik-Mesen_CV.pdf",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "icones",
+        "type": "directory",
+        "children": [
+          {
+            "name": "Logo_M.ico",
+            "type": "file"
+          },
+          {
+            "name": "icon.ico",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "img",
+        "type": "directory",
+        "children": [
+          {
+            "name": "Photo-Mesen.jpg",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "logos",
+        "type": "directory",
+        "children": [
+          {
+            "name": "Logo_v2.png",
+            "type": "file"
+          },
+          {
+            "name": "screenshot.png",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "components",
+    "type": "directory",
+    "children": [
+      {
+        "name": "about",
+        "type": "directory",
+        "children": [
+          {
+            "name": "about.jsx",
+            "type": "file"
+          },
+          {
+            "name": "about.module.scss",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "contacts",
+        "type": "directory",
+        "children": [
+          {
+            "name": "contacts.jsx",
+            "type": "file"
+          },
+          {
+            "name": "contacts.module.scss",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "credits",
+        "type": "directory",
+        "children": [
+          {
+            "name": "credits.jsx",
+            "type": "file"
+          },
+          {
+            "name": "credits.module.scss",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "cv",
+        "type": "directory",
+        "children": [
+          {
+            "name": "cv.jsx",
+            "type": "file"
+          },
+          {
+            "name": "cv.module.scss",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "help",
+        "type": "directory",
+        "children": [
+          {
+            "name": "help.jsx",
+            "type": "file"
+          },
+          {
+            "name": "help.module.scss",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "links",
+        "type": "directory",
+        "children": [
+          {
+            "name": "links.jsx",
+            "type": "file"
+          },
+          {
+            "name": "links.module.scss",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "projects",
+        "type": "directory",
+        "children": [
+          {
+            "name": "projects.jsx",
+            "type": "file"
+          },
+          {
+            "name": "projects.module.scss",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "rickroll",
+        "type": "directory",
+        "children": [
+          {
+            "name": "rickroll.jsx",
+            "type": "file"
+          },
+          {
+            "name": "rickroll.modukle.scss",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "skills",
+        "type": "directory",
+        "children": [
+          {
+            "name": "skills.jsx",
+            "type": "file"
+          },
+          {
+            "name": "skills.module.scss",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "terminal",
+        "type": "directory",
+        "children": [
+          {
+            "name": "terminal.jsx",
+            "type": "file"
+          },
+          {
+            "name": "terminal.module.scss",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "userInput",
+        "type": "directory",
+        "children": [
+          {
+            "name": "userInput.jsx",
+            "type": "file"
+          },
+          {
+            "name": "userInput.module.scss",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "css",
+    "type": "directory",
+    "children": [
+      {
+        "name": "breakpoint.module.scss",
+        "type": "file"
+      },
+      {
+        "name": "index.module.scss",
+        "type": "file"
+      },
+      {
+        "name": "root.module.scss",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "name": "index.jsx",
+    "type": "file"
+  },
+  {
+    "name": "layout",
+    "type": "directory",
+    "children": [
+      {
+        "name": "footer",
+        "type": "directory",
+        "children": [
+          {
+            "name": "footer.jsx",
+            "type": "file"
+          },
+          {
+            "name": "footer.module.scss",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "header",
+        "type": "directory",
+        "children": [
+          {
+            "name": "header.jsx",
+            "type": "file"
+          },
+          {
+            "name": "header.module.scss",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "main",
+        "type": "directory",
+        "children": [
+          {
+            "name": "main.jsx",
+            "type": "file"
+          },
+          {
+            "name": "main.module.scss",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "sidebar",
+        "type": "directory",
+        "children": [
+          {
+            "name": "sidebar.jsx",
+            "type": "file"
+          },
+          {
+            "name": "sidebar.module.scss",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "pages",
+    "type": "directory",
+    "children": [
+      {
+        "name": "error404",
+        "type": "directory",
+        "children": [
+          {
+            "name": "error404.jsx",
+            "type": "file"
+          },
+          {
+            "name": "error404.module.scss",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "home",
+        "type": "directory",
+        "children": [
+          {
+            "name": "home.jsx",
+            "type": "file"
+          },
+          {
+            "name": "home.module.scss",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "useful",
+    "type": "directory",
+    "children": [
+      {
+        "name": "getData",
+        "type": "directory",
+        "children": [
+          {
+            "name": "get.data.jsx",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "processor",
+        "type": "directory",
+        "children": [
+          {
+            "name": "processor.jsx",
+            "type": "file"
+          },
+          {
+            "name": "processor.module.scss",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  }
+]

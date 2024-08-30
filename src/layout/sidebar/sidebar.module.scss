@@ -1,0 +1,32 @@
+/* Sidebar */
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5rem;
+  text-align: justify;
+}
+
+#sidebar h1 {
+  color: var(--sidebarFontColor);
+  font-size: 52px;
+}
+
+/* Profile */
+#profile {
+  max-width: 100%;
+}
+
+/* Introduction */
+#intro {
+  color: var(--introFontColor);
+  text-align: justify;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  #sidebar h1 {
+    font-size: 10vw;
+  }
+}

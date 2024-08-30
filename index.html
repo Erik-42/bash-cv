@@ -1,67 +1,40 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
-  <title>Erik Mesen</title>
+  <title>Erik Mesen portfolio</title>
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Pour en savoir plus sur moi" />
+
   <!-- Open Graph / Social Meta Tags -->
   <meta property="og:url" content="https://erik-42.github.io/bash-cv/" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Erik Mesen" />
+  <meta property="og:title" content="Erik Mesen portfolio" />
   <meta property="og:description" content="Pour en savoir plus sur moi" />
   <meta property="og:image" content="./src/assets/logos/logo_v2.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta property="twitter:domain" content="erik-42.github.io" />
   <meta property="twitter:url" content="https://erik-42.github.io/bash-cv/" />
-  <meta name="twitter:title" content="Erik Mesen" />
+  <meta name="twitter:title" content="Erik Mesen portfolio" />
   <meta name="twitter:description" content="Pour en savoir plus sur moi" />
   <meta name="twitter:image" content="./src/assets/logos/logo_v2.png" />
+
   <!-- Link -->
   <link rel="icon" href="./src/assets/icones/icon.ico" />
-  <link rel="stylesheet" type="text/css" href="./css/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="preload" fetchpriority="high" as="image" href="./src/assets/img/Photo-Mesen.jpg" type="image/webp" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- Script -->
-  <script src="https://kit.fontawesome.com/4ec6d39a0c.js" crossorigin="anonymous" defer></script>
+  <link rel="stylesheet" href="./src/css/root.module.scss" />
+
+  <!-- scripts -->
+  <script type="module" src="./index.jsx" defer></script>  <!-- Vérifiez que le chemin est correct -->
 </head>
+
 <body>
-  <div class="container">
-    <aside id="sidebar">
-      <h1 class="title-name">Erik Mesen</h1>
-      <img class="title-photo" src="./src/assets/img/Photo-Mesen.jpg" alt="Photo de profil de Erik Mesen" id="profile" />
-      <p class="bio">
-        Développeur web, je suis dynamique et j'aime travailler en équipe pour relever des challenges techniques.<br>J'ai une bonne maîtrise des outils de développement et je suis en constante recherche d'apprentissage.
-      </p>
-    </aside>
-    <main id="terminal">
-      <div id="injected"></div>
-      <div id="userInput">
-        <label for="txtBox" class="sr-only">Entrer une commande</label>
-        <input
-          type="text"
-          value="root@Erik Mesen's Website:~$"
-          id="prompt"
-          size="28"
-          readonly="readonly"
-        />
-        <input
-          type="text"
-          id="txtBox"
-          onkeypress="commandProcessor(event)"
-          placeholder="Enter help for commands list"
-          size="40"
-          autofocus
-        />
-      </div>
-    </main>
-  </div>
+  <div id="root"></div>
+
   <footer>
     <p id="Copyright">©Copyright 2024 Erik Mesen</p>
   </footer>
-  <!-- Script -->
-  <script src="./js/main.js" defer></script>
+
 </body>
 </html>
+

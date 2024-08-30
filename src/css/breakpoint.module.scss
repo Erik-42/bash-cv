@@ -24,3 +24,9 @@
     font-size: 10vw;
   }
 }
+/* Responsiveness pour petits écrans */
+@media (max-width: 768px) {
+  .skills-container {
+    grid-template-columns: 1fr; /* Une colonne pour les petits écrans */
+  }
+}

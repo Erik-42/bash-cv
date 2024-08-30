@@ -1,0 +1,30 @@
+.skillsTitle, .skillsSubTitle {
+  color: var(--skillsTitleColor);
+}
+/* Conteneur pour les compétences */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */
+  gap: 20px; /* Espacement entre les colonnes */
+}
+
+/* Sections des compétences */
+.skills-section {
+  background-color: var(--primaryBgColor);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Tables des compétences */
+.skills-table {
+  width: 100%;
+}
+
+.skills-table td {
+  padding: 7px 15px;
+  text-align: left;
+}
+
+.skills-table td:last-child {
+  text-align: right;
+}

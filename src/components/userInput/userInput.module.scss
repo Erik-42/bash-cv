@@ -1,0 +1,25 @@
+/* Command Input */
+#prompt {
+  float: left;
+  width: auto;
+  font-size: 22px;
+  vertical-align: middle;
+  background-color: var(--primaryBgColor);
+  color: var(--promptFontColor);
+  border: none;
+}
+
+#txtBox {
+  float: left;
+  width: auto;
+  font-size: 22px;
+  vertical-align: middle;
+  background-color: var(--primaryBgColor);
+  color: var(--textBoxFontColor);
+  border: grey solid 2px;
+}
+
+/* User Input */
+#userInput {
+  margin-top: 20px;
+}

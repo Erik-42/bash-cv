@@ -1,0 +1,64 @@
+/* Terminal */
+#terminal {
+  margin: 5%;
+}
+
+/* Sections des compétences */
+.skills-section {
+  background-color: var(--primaryBgColor);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Conteneur pour les compétences */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */
+  gap: 20px; /* Espacement entre les colonnes */
+}
+
+/* Tables des compétences */
+.skills-table {
+  width: 100%;
+}
+
+.skills-table td {
+  padding: 5px 80px 0 30px;
+  text-align: left;
+}
+
+.skills-table td:last-child {
+  text-align: right;
+}
+
+/* Responsiveness pour petits écrans */
+@media (max-width: 768px) {
+  .skills-container {
+    grid-template-columns: 1fr; /* Une colonne pour les petits écrans */
+  }
+}
+
+/* Section CV */
+.cvTitle {
+  color: var(--cvTitleColor);
+  margin: 1rem 0;
+}
+
+#cvSection {
+  margin-top: 2%;
+}
+
+.cvIframe {
+  height: 92rem;
+  border: none;
+  width: 100%;
+}
+
+.videoIframe {
+  width: 560px;
+  height: 315px;
+}
+
+iframe {
+  border: none;
+}
