@@ -1,4 +1,72 @@
 // Projects
-.projectsTitle {
-  color: var(--projectsTitleColor);
+.resumeProjects {
+	padding: 0 0 3rem 0;
+
+	&__title {
+		color: var(--projectsTitleColor);
+		padding: 0 0 1rem 0;
+	}
+	&__wrapper {
+		&__personal {
+			padding: 0 0 1rem 0;
+
+			h3 {
+				padding: 0 0 1rem 1rem;
+				color: var(--skillsTitleColor);
+			}
+			&__title {
+				padding: 0 0 1rem 0;
+				color: darkgoldenrod;
+			}
+			&__text {
+				padding: 0 0 0 1rem;
+			}
+			&__img {
+			}
+		}
+		&__professional {
+			h3 {
+				padding: 0 0 1rem 0;
+				color: var(--skillsTitleColor);
+			}
+			&__title {
+				padding: 0 0 1rem 0;
+				color: darkgoldenrod;
+			}
+			&__text {
+				padding: 0 0 0 1rem;
+			}
+			&__img {
+			}
+		}
+	}
+}
+.resumeProjects__item {
+	padding: 0 0 0 2rem;
+}
+
+.projects {
+	&__title {
+	}
+	&__list {
+		&__personal {
+			&__title {
+			}
+			&__description {
+			}
+			&__img {
+			}
+		}
+		&__professional {
+			&__title {
+			}
+			&__description {
+			}
+			&__img {
+			}
+		}
+	}
+}
+
+.project__item {
 }

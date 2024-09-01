@@ -4,9 +4,9 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa'; // Importer les icônes F
 
 export default function Links() {
   return (
-    <div className='linksContainer'>
-      <h2 className='linksTitle'>Links:</h2>
-      <ul className='linksList'>
+    <div className='links'>
+      <h2 className='links__title'>Links:</h2>
+      <ul className='links__list'>
         <li>
           <a href="https://www.linkedin.com/in/erik-mesen/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className='icon' /> LinkedIn

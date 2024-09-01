@@ -1,27 +1,49 @@
 .home {
-  display: flex;
-  height: 100vh;
+	display: flex;
+	height: 100vh;
 
-  &__content {
-    display: flex;
-    align-items: flex-start; /* Aligne les éléments verticalement */
-    // margin-left: auto; /* Assure que le contenu est à droite de la sidebar */
-    padding: 1rem;
-    position: relative; /* Pour positionner le terminal */
-    width:100%
-    // /* Styles pour le terminal */
-    // .terminal {
-    //   width: 30%; /* Réduit la taille du terminal */
-    //   max-width: 300px; /* Limite la largeur maximale pour les grands écrans */
-    //   height: auto;
-    //   margin-right: 1rem; /* Espacement à droite du terminal */
-    // }
+	&__content {
+		display: flex;
+		align-items: flex-start; /* Aligne les éléments verticalement */
+		// margin-left: auto; /* Assure que le contenu est à droite de la sidebar */
+		padding: 1rem;
+		position: relative; /* Pour positionner le terminal */
+		width: 100%;
+		font-size: 12px;
+		// /* Styles pour le terminal */
+		// .terminal {
+		//   width: 30%; /* Réduit la taille du terminal */
+		//   max-width: 300px; /* Limite la largeur maximale pour les grands écrans */
+		//   height: auto;
+		//   margin-right: 1rem; /* Espacement à droite du terminal */
+		// }
 
-    // /* Label du terminal, légèrement au-dessus */
-    // .terminal__label {
-    //   position: relative;
-    //   top: -0.5rem; /* Ajuste cette valeur pour positionner le label */
-    //   font-size: 0.9rem; /* Taille de police plus petite */
-    // }
-  }
+		// /* Label du terminal, légèrement au-dessus */
+		// .terminal__label {
+		//   position: relative;
+		//   top: -0.5rem; /* Ajuste cette valeur pour positionner le label */
+		//   font-size: 0.9rem; /* Taille de police plus petite */
+		// }
+	}
+}
+
+.about {
+	margin: 1rem 0 3rem;
+}
+
+.skillsContainer {
+	padding: 0 0 3rem 0;
+}
+
+.projects {
+	padding: 0 0 3rem 0;
+}
+.links {
+	padding: 0 0 3rem 0;
+}
+.contact {
+	padding: 0 0 3rem 0;
+}
+.cv {
+	padding: 0 0 3em 0;
 }

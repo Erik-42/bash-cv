@@ -1,20 +1,27 @@
-.rickroll {
-  &__content {
-    display: flex;
-    align-items: flex-start; /* Aligne le texte et la vidéo en haut */
-    justify-content: space-between; /* Crée un espace entre le texte et la vidéo */
-    gap: 1rem; /* Espacement entre le texte et la vidéo */
-  }
+.cv {
+	&__content {
+		display: flex;
+		align-items: flex-start; /* Aligne le texte et la vidéo en haut */
+		justify-content: space-between; /* Crée un espace entre le texte et la vidéo */
+		gap: 1rem; /* Espacement entre le texte et la vidéo */
+	}
+	&__title {
+		color: var(--projectsTitleColor);
+		padding: 0 0 1rem 0;
+	}
+	&__text {
+		flex: 1; /* Prend tout l'espace disponible */
+		margin: 0;
+		padding: 0 1rem;
+	}
 
-  &__text {
-    flex: 1; /* Prend tout l'espace disponible */
-    margin: 0;
-  }
-
-  &__iframe {
-    flex: 1; /* La vidéo prend également l'espace restant */
-    width: 50%; /* Largeur de la vidéo à 50% */
-    height: 400px; /* Ajustez la hauteur de la vidéo selon vos besoins */
-    min-width: 300px; /* Largeur minimale pour la vidéo */
-  }
+	&__iframe {
+		flex: 1; /* La vidéo prend également l'espace restant */
+		width: 50%; /* Largeur de la vidéo à 50% */
+		height: 400px; /* Ajustez la hauteur de la vidéo selon vos besoins */
+		min-width: 300px; /* Largeur minimale pour la vidéo */
+	}
+	&__download {
+		text-decoration: underline;
+	}
 }

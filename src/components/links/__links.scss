@@ -1,0 +1,13 @@
+.links {
+	&__title {
+		color: var(--projectsTitleColor);
+
+		padding: 0 0 1rem 0;
+	}
+	&__list {
+		padding: 0 1rem;
+		li {
+			padding: 0 0 1rem 0;
+		}
+	}
+}
