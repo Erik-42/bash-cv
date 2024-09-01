@@ -1,34 +1,35 @@
-.contact{
-  &__title {
-    color: var(--contactTitleColor);
-    // margin-bottom: 1rem; // Ajout d'un espace sous le titre
-    padding: 0 0 1rem 0;
-  }
+.contact {
+	&__title {
+		color: var(--contactTitleColor);
+		// margin-bottom: 1rem; // Ajout d'un espace sous le titre
+		padding: 0 0 1rem 0;
+	}
 
-  &__table {
-    width: 100%;
-    border-collapse: collapse; // Évite les espacements entre les cellules du tableau
-  &__item{
-  
-  }
-    td {
-      padding: 0.5rem;
-      vertical-align: top; // Aligne le texte en haut des cellules
-    }
-  
-    .contact__table__item__icon {
-      width: 2rem; // Largeur fixe pour les icônes
-      text-align: center; // Centre les icônes dans les cellules
-    }
-  
-    a {
-      color: var(--linkColor); // Assure que les liens ont une couleur distincte
-      text-decoration: none; // Enlève le soulignement des liens
-    }
-  
-    a:hover {
-      text-decoration: underline; // Souligne les liens au survol
-    }
-  }
+	&__table {
+		width: 100%;
+		border-collapse: collapse; // Évite les espacements entre les cellules du tableau
+		&__item {
+			&__email {
+				width: 0;
+			}
+			&__icon {
+				width: 2rem; // Largeur fixe pour les icônes
+				text-align: center; // Centre les icônes dans les cellules
+			}
+			td {
+				padding: 0.5rem;
+				vertical-align: top; // Aligne le texte en haut des cellules
+				a {
+					color: var(
+						--linkColor
+					); // Assure que les liens ont une couleur distincte
+					text-decoration: none; // Enlève le soulignement des liens
+				}
+
+				a:hover {
+					text-decoration: underline; // Souligne les liens au survol
+				}
+			}
+		}
+	}
 }
-

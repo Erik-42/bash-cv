@@ -18,31 +18,45 @@
 				padding: 0 0 1rem 0;
 				color: darkgoldenrod;
 			}
-			&__text {
-				padding: 0 0 0 1rem;
-			}
-			&__img {
+			&__container {
+				display: flex;
+				align-items: center;
+				gap: 1rem;
+				&__text {
+					padding: 0 0 0 1rem;
+				}
+				&__img {
+					width: 25%;
+				}
 			}
 		}
 		&__professional {
+			padding: 0 0 1rem 0;
+
 			h3 {
-				padding: 0 0 1rem 0;
+				padding: 0 0 1rem 1rem;
 				color: var(--skillsTitleColor);
 			}
 			&__title {
 				padding: 0 0 1rem 0;
 				color: darkgoldenrod;
 			}
-			&__text {
-				padding: 0 0 0 1rem;
-			}
-			&__img {
+			&__container {
+				display: flex;
+				align-items: center;
+				gap: 1rem;
+				&__text {
+					padding: 0 0 0 1rem;
+				}
+				&__img {
+					width: 25%;
+				}
 			}
 		}
 	}
 }
 .resumeProjects__item {
-	padding: 0 0 0 2rem;
+	padding: 0 0 1rem 2rem;
 }
 
 .projects {
@@ -69,4 +83,5 @@
 }
 
 .project__item {
+	padding: 0 0 1rem 2rem;
 }

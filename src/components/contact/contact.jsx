@@ -18,7 +18,7 @@ export default function Contact() {
 						<td className='contact__table__item__icon'>
 							<FontAwesomeIcon icon={faEnvelope} />
 						</td>
-						<td>Email</td>
+						<td className='contact__table__item__email'>Email</td>
 						<td>
 							<a href='mailto:mesen.erik@gmail.com'>mesen.erik@gmail.com</a>
 						</td>

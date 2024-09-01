@@ -1,5 +1,11 @@
 import React from "react";
 import "./__projects.scss"; // Assurez-vous que ce fichier existe
+import projetPerso1 from "../../assets/img/Projets-perso/Aerial-by-HTML5-UP.png";
+import projetPerso2 from "../../assets/img/Projets-perso/CetD_2023.webp";
+import projetPerso3 from "../../assets/img/Projets-perso/Le-Raid-Tolkien.webp";
+import projetPro1 from "../../assets/img/Projets-pro/Banner-Ohmyfood.png";
+import projetPro2 from "../../assets/img/Projets-pro/argentBankLogo.png";
+import projetPro3 from "../../assets/img/Projets-pro/Kasa-mini.webp";
 
 export function ResumeProjects() {
 	return (
@@ -13,43 +19,50 @@ export function ResumeProjects() {
 						<h4 className='resumeProjects__wrapper__personal__title'>
 							project Title 1
 						</h4>
-						<p className='resumeProjects__wrapper__personal__text'>
-							Une application de gestion de tâches personnelle utilisant React
-							et Node.js.
-						</p>
-						<img
-							className='resumeProjects__wrapper__personal__img'
-							src=''
-							alt=''
-						/>
+						<div className='resumeProjects__wrapper__personal__container'>
+							<p className='resumeProjects__wrapper__personal__container__text'>
+								Une application de gestion de tâches personnelle utilisant React
+								et Node.js.
+							</p>
+							<img
+								className='resumeProjects__wrapper__personal__container__img'
+								src={projetPerso1}
+								alt={projetPerso1}
+							/>
+						</div>
 					</div>
+
 					<div className='resumeProjects__wrapper__personal-2 resumeProjects__item'>
 						<h4 className='resumeProjects__wrapper__personal__title'>
 							project Title 2
 						</h4>
-						<p className='resumeProjects__wrapper__personal__text'>
-							Une application de gestion de tâches personnelle utilisant React
-							et Node.js.
-						</p>
-						<img
-							className='resumeProjects__wrapper__personal__img'
-							src=''
-							alt=''
-						/>
+						<div className='resumeProjects__wrapper__personal__container'>
+							<p className='resumeProjects__wrapper__personal__container__text'>
+								Une application de gestion de tâches personnelle utilisant React
+								et Node.js.
+							</p>
+							<img
+								className='resumeProjects__wrapper__personal__container__img'
+								src={projetPerso2}
+								alt={projetPerso2}
+							/>
+						</div>
 					</div>
 					<div className='resumeProjects__wrapper__personal-3 resumeProjects__item'>
 						<h4 className='resumeProjects__wrapper__personal__title'>
 							project Title 3
 						</h4>
-						<p className='resumeProjects__wrapper__personal__text'>
-							Une application de gestion de tâches personnelle utilisant React
-							et Node.js.
-						</p>
-						<img
-							className='resumeProjects__wrapper__personal__img'
-							src=''
-							alt=''
-						/>
+						<div className='resumeProjects__wrapper__personal__container'>
+							<p className='resumeProjects__wrapper__personal__container__text'>
+								Une application de gestion de tâches personnelle utilisant React
+								et Node.js.
+							</p>
+							<img
+								className='resumeProjects__wrapper__personal__container__img'
+								src={projetPerso3}
+								alt={projetPerso3}
+							/>
+						</div>
 					</div>
 				</div>
 
@@ -60,43 +73,50 @@ export function ResumeProjects() {
 						<h4 className='resumeProjects__wrapper__professional__title'>
 							project Title 1
 						</h4>
-						<p className='resumeProjects__wrapper__professional__text'>
-							Développement d'une plateforme d'e-learning pour une entreprise
-							utilisant Moodle et PHP.
-						</p>
-						<img
-							className='resumeProjects__wrapper__professional__img'
-							src=''
-							alt=''
-						/>
+						<div className='resumeProjects__wrapper__professional__container'>
+							<p className='resumeProjects__wrapper__professional__container__text'>
+								Une application de gestion de tâches professionnelle utilisant
+								React et Node.js.
+							</p>
+							<img
+								className='resumeProjects__wrapper__professional__container__img'
+								src={projetPro1}
+								alt={projetPro1}
+							/>
+						</div>
 					</div>
+
 					<div className='resumeProjects__wrapper__professional-2 resumeProjects__item'>
 						<h4 className='resumeProjects__wrapper__professional__title'>
 							project Title 2
 						</h4>
-						<p className='resumeProjects__wrapper__professional__text'>
-							Développement d'une plateforme d'e-learning pour une entreprise
-							utilisant Moodle et PHP.
-						</p>
-						<img
-							className='resumeProjects__wrapper__professional__img'
-							src=''
-							alt=''
-						/>
+						<div className='resumeProjects__wrapper__professional__container'>
+							<p className='resumeProjects__wrapper__professional__container__text'>
+								Une application de gestion de tâches professionnelle utilisant
+								React et Node.js.
+							</p>
+							<img
+								className='resumeProjects__wrapper__professional__container__img'
+								src={projetPro2}
+								alt={projetPro2}
+							/>
+						</div>
 					</div>
 					<div className='resumeProjects__wrapper__professional-3 resumeProjects__item'>
 						<h4 className='resumeProjects__wrapper__professional__title'>
 							project Title 3
 						</h4>
-						<p className='resumeProjects__wrapper__professional__text'>
-							Développement d'une plateforme d'e-learning pour une entreprise
-							utilisant Moodle et PHP.
-						</p>
-						<img
-							className='resumeProjects__wrapper__professional__img'
-							src=''
-							alt=''
-						/>
+						<div className='resumeProjects__wrapper__professional__container'>
+							<p className='resumeProjects__wrapper__professional__container__text'>
+								Une application de gestion de tâches professionnelle utilisant
+								React et Node.js.
+							</p>
+							<img
+								className='resumeProjects__wrapper__professional__container__img'
+								src={projetPro3}
+								alt={projetPro3}
+							/>
+						</div>
 					</div>
 				</div>
 			</div>
