@@ -6,6 +6,7 @@ import projetPerso3 from "../../assets/img/Projets-perso/Le-Raid-Tolkien.webp";
 import projetPro1 from "../../assets/img/Projets-pro/Banner-Ohmyfood.png";
 import projetPro2 from "../../assets/img/Projets-pro/argentBankLogo.png";
 import projetPro3 from "../../assets/img/Projets-pro/Kasa-mini.webp";
+import CommandProcessor from "../../useful/processor/processor";
 
 export function ResumeProjects() {
 	return (
@@ -24,11 +25,13 @@ export function ResumeProjects() {
 								Une application de gestion de tâches personnelle utilisant React
 								et Node.js.
 							</p>
-							<img
-								className='resumeProjects__wrapper__personal__container__img'
-								src={projetPerso1}
-								alt={projetPerso1}
-							/>
+							<a href=''>
+								<img
+									className='resumeProjects__wrapper__personal__container__img'
+									src={projetPerso1}
+									alt={projetPerso1}
+								/>
+							</a>
 						</div>
 					</div>
 
@@ -132,15 +135,25 @@ export default function Projects() {
 				<div className='projects__list__personal'>
 					<h3>Projets Personnel:</h3>
 
-					<div className='projects__list__personal-1 project__item'>
+					<div
+						id='projet1'
+						className='projects__list__personal-1 project__item'>
 						<h4 className='projects__list__personal__title'>
-							Projet personnel 1:
+							Titre Projet personnel 1:
 						</h4>
-						<p className='projects__list__personal__description'>
-							Une application de gestion de tâches personnelle utilisant React
-							et Node.js.
-						</p>
-						<img className='projects__list__personal__img' src='' alt='' />
+						<div className='projects__list__personal__container'>
+							<p className='projects__list__personal__description'>
+								Une application de gestion de tâches personnelle utilisant React
+								et Node.js.
+							</p>
+							<a className='projects__list__personal__link' href='#'>
+								<img
+									className='projects__list__personal__img'
+									src={projetPerso1}
+									alt={projetPerso1}
+								/>
+							</a>
+						</div>
 					</div>
 
 					<div className='projects__list__personal-2 project__item'>

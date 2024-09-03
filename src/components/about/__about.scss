@@ -1,11 +1,6 @@
-.about,
-.creditTitle {
-	color: var(--primaryFontColor);
+.about {
 	&__title {
-		color: var(--projectsTitleColor);
-		padding: 0 0 1rem 0;
 	}
 	&__text {
-		padding: 0 0 0 1rem;
 	}
 }

@@ -1,0 +1,10 @@
+.credit__title {
+	color: var(--primaryFontColor);
+	&__title {
+		color: var(--projectsTitleColor);
+		padding: 0 0 1rem 0;
+	}
+	&__text {
+		padding: 0 0 0 1rem;
+	}
+}
