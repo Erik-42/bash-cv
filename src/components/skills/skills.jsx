@@ -70,6 +70,10 @@ export default function Skills() {
 								<td>NGinx</td>
 								<td>▰▰▰▰▰▰▰▰▱▱ 80%</td>
 							</tr>
+							<tr>
+								<td>Swagger</td>
+								<td>▰▰▰▱▱▱▱▱▱▱ 80%</td>
+							</tr>
 						</tbody>
 					</table>
 				</div>

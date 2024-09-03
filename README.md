@@ -10,7 +10,7 @@ Simply fork or download the project and start customizing the index.html and mai
 
 ## Live demo:
 
-You can see the website in action [here.](https://erik-42.github.io/bash-cv/) Hint: Enter rickroll as a command ;-)
+You can see the website in action [here.](https://bash-cv.vercel.app/) Hint: Enter rickroll as a command ;-)
 
 ================================
 
@@ -143,6 +143,8 @@ Clone it on your computer.
 `npm install` command wil allow you to install the depencies.
 
 ## Testez le projet
+
+## https://bash-cv.vercel.app/
 
 ### Available Scripts
 
