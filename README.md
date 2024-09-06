@@ -1,21 +1,3 @@
-================================
-
-Modifications du projet pour le passer sous React
-
-export de la structure du projet
-
-node export-file-structure.js
-
-================================
-
-lancement du projet
-
-npm run dev
-
-localhost:4000
-
-================================
-
 <div align="center">
 </div>
 <a name="readme-top"></a>
@@ -50,17 +32,18 @@ localhost:4000
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
-[![wakatime repo](https://wakatime.com/badge/github/Erik-42/openclassroom-bash-cv.svg)](https://wakatime.com/badge/github/Erik-42/openclassroom-bash-cv)
-[![wakatime](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/0b18637a-df2f-46f6-93e5-574433068892.svg)](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/0b18637a-df2f-46f6-93e5-574433068892)
+[![wakatime](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/d575968c-3ec6-4505-9a5b-891cd73d1127.svg)](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/d575968c-3ec6-4505-9a5b-891cd73d1127)
 
 </div>
 
-# bash-CV
-
 ============================== EN ==================================
 
-bash-CV is a simple, open-source personal website React template with a command-line interface. Perfect for programmers, geeks, and anyone who finds the command line cool. It is based on HTML, CSS, and JavaScript React
-and therefore compatible with GitHub Pages.<br>
+bash-CV is an open source React personal website template with a command line interface.
+Perfect for programmers, geeks and anyone who finds the command line cool.
+
+It is based on HTML, CSS and React and can be deployed with Vercel
+
+The vanilla HTML, CSS, JavaScript version that you can find <a href='https://github.com/CedArctic/bash-CV'>here</a> is compatible with GitHub pages.
 
 ============================== FR ==================================
 
@@ -73,7 +56,11 @@ La version HTML, CSS, JavaScript vanilla que vous pouvez trouver <a href='https:
 
 ## Usage
 
+============================== EN ==================================
+
 Simply fork or download the project and start customizing to display the text you want.
+
+============================== FR ==================================
 
 Il vous suffit de créer un fork ou de télécharger le projet et de commencer à personnaliser pour afficher le texte souhaité.
 
@@ -94,8 +81,7 @@ Il vous suffit de créer un fork ou de télécharger le projet et de commencer �
 
 ## Installation:
 
-<a href=https://nodejs.org>NodeJS</a>  
-<a href=https://npmjs.com>Npm</a>
+<a href=https://nodejs.org>Node</a> & <a href=https://npmjs.com>Npm</a>
 
 ### Dependencies:
 
@@ -122,6 +108,14 @@ lancement du projet
 
 `npm run dev` localhost:4000
 
+================================
+
+Si vous souhaitez exporter la structure du projet
+
+`node export-file-structure.js`
+
+================================
+
 ## Testez le projet
 
 version React:
@@ -147,7 +141,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [![GitHub followers][github followers-shield]][github followers-url]
 [![Stargazers][stars-shield]][stars-url]
 [![GitHub repo][github repo-shield]][github repo-url]
-[![wakatime](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/d575968c-3ec6-4505-9a5b-891cd73d1127.svg)](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/d575968c-3ec6-4505-9a5b-891cd73d1127)
+[![wakatime][wakatime-shield]][wakatime-url]
 
 [![Github Badge][github badge-shield]][github badge-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -170,24 +164,24 @@ mesen.erik@gmail.com
 [github badge-url]: https://github.com/Erik-42
 [github repo-shield]: https://img.shields.io/badge/Repositories-48-blue
 [github repo-url]: https://github.com/Erik-42/Erik-42?tab=repositories
-[github repo file count (file type)-shield]: https://img.shields.io/github/directory-file-count/Erik-42/openclassroom-bash-cv
-[github repo file count (file type)-url]: https://github.com/directory-file-count/Erik-42/openclassroom-bash-cv
+[github repo file count (file type)-shield]: https://img.shields.io/github/directory-file-count/Erik-42/bash-cv
+[github repo file count (file type)-url]: https://github.com/directory-file-count/Erik-42/bash-cv
 [github followers-shield]: https://img.shields.io/github/followers/Erik-42
 [github followers-url]: https://github.com/followers/Erik-42
-[github all releases-shield]: https://github.com/Erik-42/openclassroom-bash-cv/total
-[github all releases-url]: https://github.com/Erik-42/openclassroom-bash-cv/releases
-[github repo size-shield]: https://img.shields.io/github/repo-size/Erik-42/openclassroom-bash-cv
-[github repo size-url]: https://github.com/Erik-42/openclassroom-bash-cv
-[contributors-shield]: https://img.shields.io/github/contributors/Erik-42/openclassroom-bash-cv
-[contributors-url]: https://github.com/Erik-42/openclassroom-bash-cv/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Erik-42/openclassroom-bash-cv
-[forks-url]: https://github.com/Erik-42/openclassroom-bash-cv/forks
+[github all releases-shield]: https://github.com/Erik-42/bash-cv/total
+[github all releases-url]: https://github.com/Erik-42/bash-cv/releases
+[github repo size-shield]: https://img.shields.io/github/repo-size/Erik-42/bash-cv
+[github repo size-url]: https://github.com/Erik-42/bash-cv
+[contributors-shield]: https://img.shields.io/github/contributors/Erik-42/bash-cv
+[contributors-url]: https://github.com/Erik-42/bash-cv/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Erik-42/bash-cv
+[forks-url]: https://github.com/Erik-42/bash-cv/forks
 [stars-shield]: https://img.shields.io/github/stars/Erik-42
 [stars-url]: https://github.com/Erik-42?tab=stars
-[issues-shield]: https://img.shields.io/github/issues-raw/Erik-42/openclassroom-bash-cv
-[issues-url]: https://github.com/Erik-42/openclassroom-bash-cv/issues
-[license-shield]: https://img.shields.io/github/license/Erik-42/openclassroom-bash-cv
-[license-url]: https://github.com/Erik-42/openclassroom-bash-cv/blob/master/LICENSE.txt
+[issues-shield]: https://img.shields.io/github/issues-raw/Erik-42/bash-cv
+[issues-url]: https://github.com/Erik-42/bash-cv/issues
+[license-shield]: https://img.shields.io/github/license/Erik-42/bash-cv
+[license-url]: https://github.com/Erik-42/bash-cv/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/erik-mesen/
 [html-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
