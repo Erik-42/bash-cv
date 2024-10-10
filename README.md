@@ -148,7 +148,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <a href = 'https://basillecorp.dev'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/portfolio.png"/> basillecorp.dev</a>
 
-mesen.erik@gmail.com
+Portfolio: https://bash-cv.vercel.app/
+
+<a href="https://www.figma.com/design/H17d3Plq2fxppmKcQXfB0p/Cv-Eric-Breteau?m=auto&t=enkiu3089axN0tBm-1">Mon CV</a>
+
+Contactez moi: mesen.erik@gmail.com
 
 </div>
 

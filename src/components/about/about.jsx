@@ -3,14 +3,16 @@ import "./__about.scss"; // Import des styles spécifiques à la section About
 
 export default function About() {
 	return (
-		<section className='about'>
-			<h2 className='about__title'>À propos de moi</h2>
-			<p className='about__text'>
-				Je m'appelle Erik Mesen, je suis concepteur, développeur et intégrateur
-				d'applications web.
+		<section className="about">
+			<h2 className="about__title">À propos de moi</h2>
+			<p className="about__text">
+				Créateur d'expériences numériques fluides
 				<br />
-				Je suis passionné par les technologies de l'informatique en général, les
-				réseaux et le web.
+				Concepteur & Développeur Fullstack JS/React | Front & Back
+				<br />
+				Passionné par les technologies de l'informatique, <br />
+				je me spécialise dans les réseaux et le web pour créer des solutions
+				innovantes et performantes.
 			</p>
 		</section>
 	);
