@@ -1,7 +1,7 @@
 import React from "react";
-import "./__sidebar.scss"; // Import des styles spécifiques au Sidebar
-import photo from "../../assets/img/Photo-Mesen.jpg"; // Import de l'image de profil
-import logo from "../../assets/logos/Logo_v2.png"; // Chemin relatif de l'image
+import "./__sidebar.scss"; 
+import photo from "../../assets/img/Photo-Mesen.jpg"; 
+import logo from "../../assets/logos/Logo_v2.png"; 
 
 export default function Sidebar() {
 	return (

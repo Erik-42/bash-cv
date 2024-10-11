@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./__userInput.scss";
 
-// Import des composants React correspondant aux commandes
 import Help from "../help/help";
 import About from "../about/about";
 import Skills from "../skills/skills";
@@ -22,7 +21,9 @@ export default function UserInput() {
 	useEffect(() => {
 		if (spanRef.current && inputRootRef.current) {
 			// Mettre à jour la largeur de l'input en fonction de la largeur du span
-			inputRootRef.current.style.width = `${spanRef.current.offsetWidth}px`;
+			inputRootRef.current.style.width = `${
+				spanRef.current.offsetWidth + 10
+			}px`;
 		}
 	}, [rootValue]);
 
@@ -78,7 +79,6 @@ export default function UserInput() {
 
 	return (
 		<div className='userInput'>
-			<div className='userInput__output'>{activeCommand}</div>
 			<div className='userInput__wrapper'>
 				{/* Span caché pour mesurer la taille du texte */}
 				<span ref={spanRef} className='userInput__hiddenSpan'>
@@ -89,7 +89,7 @@ export default function UserInput() {
 					value={rootValue}
 					readOnly
 					className='userInput__root'
-					ref={inputRootRef} // Référence pour ajuster la largeur
+					ref={inputRootRef}
 				/>
 				<input
 					type='text'
@@ -100,6 +100,7 @@ export default function UserInput() {
 					aria-label='Terminal input'
 				/>
 			</div>
+			<div className='userInput__output'>{activeCommand}</div>
 		</div>
 	);
 }

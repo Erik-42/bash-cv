@@ -10,8 +10,8 @@
 		justify-content: flex-start;
 		align-items: center;
 		flex-direction: row;
-		gap: 0.5rem;
-		padding: 0 0 3rem 0;
+		gap: 0.1rem;
+		padding: 0 0 1rem 0;
 	}
 
 	&__root {
@@ -21,7 +21,6 @@
 		color: var(--promptFontColor);
 		border: none;
 		white-space: nowrap;
-
 		&:focus {
 			outline: none;
 			border: none;
@@ -65,10 +64,9 @@
 		width: 100%;
 		background-color: var(--outputBgColor);
 		color: var(--outputFontColor);
-		// padding: 1rem;
 		border-radius: 5px;
 		margin-bottom: 10px; /* Espace entre output et prompt */
-		overflow-wrap: break-word; /* Gère les longs mots ou URL */
+		overflow-wrap: break-word;
 	}
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
-import Terminal from "../../components/terminal/terminal"; // Import du Terminal
-import "./__main.scss"; // Import des styles spécifiques à l'application
+import Terminal from "../../components/terminal/terminal"; 
+import "./__main.scss"; 
 
 export default function App() {
   return (

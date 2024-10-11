@@ -1,7 +1,6 @@
 import React from 'react';
-import   './__links.scss'; // Assurez-vous que ce fichier existe
-import { FaLinkedin, FaGithub } from 'react-icons/fa'; // Importer les icônes FontAwesome via react-icons
-
+import   './__links.scss'; 
+import { FaLinkedin, FaGithub } from 'react-icons/fa'; 
 export default function Links() {
   return (
     <div className='links'>

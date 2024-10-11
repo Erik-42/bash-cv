@@ -1,6 +1,6 @@
 import React from "react";
-import "./__contact.scss"; // Importation des styles
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Importation du composant FontAwesomeIcon
+import "./__contact.scss"; 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import {
 	faAddressBook,
 	faEnvelope,

@@ -1,6 +1,5 @@
 import React from "react";
-import "./__skills.scss"; // Assurez-vous que le fichier CSS Modules existe
-
+import "./__skills.scss";
 export default function Skills() {
 	return (
 		<div className='skills'>
@@ -133,7 +132,6 @@ export default function Skills() {
 						</tbody>
 					</table>
 				</div>
-				{/* Other sections can be added here */}
 			</div>
 		</div>
 	);

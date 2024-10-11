@@ -1,11 +1,10 @@
 import React from "react";
-import "./__about.scss"; // Import des styles spécifiques à la section About
-
+import "./__about.scss";
 export default function About() {
 	return (
-		<section className="about">
-			<h2 className="about__title">À propos de moi</h2>
-			<p className="about__text">
+		<section className='about'>
+			<h2 className='about__title'>À propos de moi</h2>
+			<p className='about__text'>
 				Créateur d'expériences numériques fluides
 				<br />
 				Concepteur & Développeur Fullstack JS/React | Front & Back

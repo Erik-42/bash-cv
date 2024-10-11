@@ -9,8 +9,7 @@
 @import '../pages/home/__home';
 @import '../css/__breakpoint';
 
-// src/css/__index.scss
-@import './__variables.scss'; // Chemin vers le fichier variables.scss
-@import './__root.scss';      // Assurez-vous que __root.scss est également dans le bon répertoire
-@import './__mixin.scss';     // Assurez-vous que __mixin.scss est également dans le bon répertoire
-@import './__breakpoint.scss';// Assurez-vous que __breakpoint.scss est également dans le bon répertoire
+@import './__variables.scss'; 
+@import './__root.scss';      
+@import './__mixin.scss';     
+@import './__breakpoint.scss';

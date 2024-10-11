@@ -1,5 +1,5 @@
 import React from 'react';
-import './__rickroll.scss'; // Correction de l'import
+import './__rickroll.scss'; 
 
 export default function Rickroll() {
   return (

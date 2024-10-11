@@ -42,7 +42,7 @@ export default function CommandProcessor(event) {
 	}
 }
 
-// Assurez-vous que le DOM est entièrement chargé avant d'ajouter l'écouteur d'événements
+// On s'assure que le DOM est entièrement chargé avant d'ajouter l'écouteur d'événements
 document.addEventListener("DOMContentLoaded", () => {
 	const txtBox = document.getElementById("txtBox");
 	if (txtBox) {

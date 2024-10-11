@@ -1,25 +1,25 @@
 .cv {
 	&__content {
 		display: flex;
-		align-items: flex-start; /* Aligne le texte et la vidéo en haut */
-		justify-content: space-between; /* Crée un espace entre le texte et la vidéo */
-		gap: 1rem; /* Espacement entre le texte et la vidéo */
+		align-items: flex-start;
+		justify-content: space-between; 
+		gap: 1rem; 
 	}
 	&__title {
 		color: var(--projectsTitleColor);
 		padding: 0 0 1rem 0;
 	}
 	&__text {
-		flex: 1; /* Prend tout l'espace disponible */
+		flex: 1; 
 		margin: 0;
 		padding: 0 1rem;
 	}
 
 	&__iframe {
-		flex: 1; /* La vidéo prend également l'espace restant */
-		width: 50%; /* Largeur de la vidéo à 50% */
-		height: 400px; /* Ajustez la hauteur de la vidéo selon vos besoins */
-		min-width: 300px; /* Largeur minimale pour la vidéo */
+		flex: 1;
+		width: 50%; 
+		height: 400px; 
+		min-width: 300px; 
 	}
 	&__download {
 		text-decoration: underline;

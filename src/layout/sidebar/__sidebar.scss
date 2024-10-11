@@ -1,37 +1,38 @@
 .sidebar {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 20rem; /* Définit la largeur de la sidebar */
-  padding: 2rem 1rem; /* Ajoute un peu de padding pour l'espace interne */
-  // margin-right: 3rem; /* Espace à droite de la sidebar */
-  background-color: var(--sidebarBgColor); /* Ajout d'une couleur de fond si souhaité */
-  text-align: center; /* Centre le texte à l'intérieur des éléments */
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 20rem; 
+	padding: 2rem 1rem; 
+	background-color: var(
+		--sidebarBgColor
+	); 
+	text-align: center; 
+	position: fixed;
 
-  &__logo {
-    width: 80%; /* Taille de l'image du logo */
-    margin-bottom: 1rem;
-  }
+	&__logo {
+		width: 80%; 
+		margin-bottom: 1rem;
+	}
 
-  &__titleName {
-    color: var(--sidebarFontColor);
-    font-size: 2rem;
-    margin: 1rem 0; /* Ajoute un espace autour du titre */
-    display: none; /* S'assure que le titre est visible */
-  }
+	&__titleName {
+		color: var(--sidebarFontColor);
+		font-size: 2rem;
+		margin: 1rem 0; 
+		display: none; 
+	}
 
-  &__titlePhoto {
-    width: 80%; /* Taille de la photo de profil */
-    margin-bottom: 1rem;
-    // border-radius: 50%; /* Optionnel : rend la photo ronde */
-  }
-  
-  &__bio {
-    font-size: 12px;
-    width: 80%; /* Aligne la largeur du texte de la bio avec celle de l'image */
-    margin: 1rem 0;
-    line-height: 1.5; /* Améliore la lisibilité du texte */
-    text-align: justify; /* Justifie le texte pour une meilleure présentation */
-  }
+	&__titlePhoto {
+		width: 80%; 
+		margin-bottom: 1rem;
+	}
+
+	&__bio {
+		font-size: 12px;
+		width: 80%;
+		margin: 1rem 0;
+		line-height: 1.5; 
+		text-align: justify; 
+	}
 }
