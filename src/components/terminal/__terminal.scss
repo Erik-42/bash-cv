@@ -1,27 +1,13 @@
 /* __terminal.scss */
 .terminal {
-  // margin: 1rem;
-  // padding: 1rem;
-  background-color: var(--terminalBgColor);
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width:100%;
+	background-color: var(--terminalBgColor);
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 100%;
 
-  // &__injected {
-  //   margin-bottom: 1rem;
-  //   background-color: var(--injectedBgColor);
-  //   padding: 1rem;
-  //   border-radius: 8px;
-  //   color: var(--injectedFontColor);
-  //   font-family: monospace;
-  //   min-height: 100px; /* Pour garantir une certaine hauteur minimale */
-  // }
-
-  &__userRoot {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
+	&__userRoot {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+	}
 }
-
-
