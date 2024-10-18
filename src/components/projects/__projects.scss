@@ -6,29 +6,6 @@
 		padding: 0 0 1rem 0;
 	}
 	&__wrapper {
-		&__personal {
-			padding: 0 0 1rem 0;
-
-			h3 {
-				padding: 0 0 1rem 1rem;
-				color: var(--skillsTitleColor);
-			}
-			&__title {
-				padding: 0 0 1rem 0;
-				color: darkgoldenrod;
-			}
-			&__container {
-				display: flex;
-				align-items: center;
-				gap: 1rem;
-				&__text {
-					padding: 0 0 0 1rem;
-				}
-				&__img {
-					width: 25%;
-				}
-			}
-		}
 		&__professional {
 			padding: 0 0 1rem 0;
 
@@ -44,11 +21,41 @@
 				display: flex;
 				align-items: center;
 				gap: 1rem;
+				justify-content: space-between;
 				&__text {
 					padding: 0 0 0 1rem;
 				}
 				&__img {
-					width: 25%;
+					img {
+						width: 10rem;
+					}
+				}
+			}
+		}
+
+		&__personal {
+			padding: 0 0 1rem 0;
+
+			h3 {
+				padding: 0 0 1rem 1rem;
+				color: var(--skillsTitleColor);
+			}
+			&__title {
+				padding: 0 0 1rem 0;
+				color: darkgoldenrod;
+			}
+			&__container {
+				display: flex;
+				align-items: center;
+				gap: 1rem;
+				justify-content: space-between;
+				&__text {
+					padding: 0 0 0 1rem;
+				}
+				&__img {
+					img {
+						width: 10rem;
+					}
 				}
 			}
 		}
