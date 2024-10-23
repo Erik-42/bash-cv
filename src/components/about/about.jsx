@@ -10,8 +10,8 @@ export default function About() {
 				Concepteur & Développeur Fullstack JS/React | Front & Back
 				<br />
 				Passionné par les technologies de l'informatique, <br />
-				je me spécialise dans les réseaux et le web pour créer des solutions
-				innovantes et performantes.
+				je me spécialise dans les réseaux, le web et le developpement
+				d'applications pour créer des solutions innovantes et performantes.
 			</p>
 		</section>
 	);
