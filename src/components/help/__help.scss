@@ -5,9 +5,9 @@
 	}
 
 	&__table {
+		color: var(--helpTextColor);
 		tr {
 			display: flex;
-			// gap: 4rem;
 			flex-direction: row;
 			justify-content: flex-start;
 		}

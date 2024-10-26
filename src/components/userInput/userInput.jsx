@@ -3,6 +3,7 @@ import "./__userInput.scss";
 
 import Help from "../help/help";
 import About from "../about/about";
+import SoftSkills from "../softSkills/softSkills";
 import Skills from "../skills/skills";
 import Projects, { ResumeProjects } from "../projects/projects";
 import Links from "../links/links";
@@ -52,6 +53,7 @@ export default function UserInput() {
 			const commands = {
 				help: () => <Help />,
 				about: () => <About />,
+				soft: () => <SoftSkills />,
 				skills: () => <Skills />,
 				projects: () => <Projects />,
 				links: () => <Links />,
@@ -62,6 +64,7 @@ export default function UserInput() {
 				all: () => (
 					<>
 						<About />
+						<SoftSkills />
 						<Skills />
 						<ResumeProjects />
 						<Links />
@@ -100,6 +103,9 @@ export default function UserInput() {
 					aria-label='Terminal input'
 				/>
 			</div>
+			<p className='userInput__comment'>
+				Pour plus d'informations sur chaque section entrez la commande approprié
+			</p>
 			<div className='userInput__output'>{activeCommand}</div>
 		</div>
 	);

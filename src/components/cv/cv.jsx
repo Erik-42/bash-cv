@@ -19,7 +19,7 @@ export function CvDownload() {
 		<div className='cv'>
 			<h2 className='cv__title'>CV:</h2>
 			<p className='cv__text'>
-				Download from{" "}
+				Download from
 				<a
 					className='cv__download'
 					href='../../assets/data/Erik-Mesen_CV.pdf'
@@ -28,6 +28,9 @@ export function CvDownload() {
 					here
 				</a>
 				.
+				<a href='https://www.figma.com/proto/H17d3Plq2fxppmKcQXfB0p/Cv-Eric-Breteau?node-id=1-9&node-type=frame&t=E3i2UoaYXC5DOjKR-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A9&share=1'>
+					prototype Figma
+				</a>
 			</p>
 		</div>
 	);

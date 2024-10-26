@@ -3,6 +3,12 @@
 	flex-direction: column;
 	align-items: flex-start;
 	width: 100%;
+	&__comment {
+		position: relative;
+		top: 1.5rem;
+		font-size: 10px;
+		color: var(--commentTextColor);
+	}
 
 	&__wrapper {
 		width: 100%;
@@ -12,6 +18,8 @@
 		flex-direction: row;
 		gap: 0.1rem;
 		padding: 0 0 1rem 0;
+		position: fixed;
+		top: 1.5rem;
 	}
 
 	&__root {
@@ -67,6 +75,9 @@
 		border-radius: 5px;
 		margin-bottom: 10px; /* Espace entre output et prompt */
 		overflow-wrap: break-word;
+		position: relative;
+		top: 3rem;
+		z-index: -1;
 	}
 }
 

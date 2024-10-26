@@ -26,11 +26,20 @@ export default function Help() {
 					</tr>
 					<br />
 					<tr>
+						<td className='helpContainer__table__command'>soft</td>
+						<td>
+							Discover my soft skills
+							<br />
+							Découvrez mon savoir être
+						</td>
+					</tr>
+					<br />
+					<tr>
 						<td className='helpContainer__table__command'>skills</td>
 						<td>
-							Discover my skills
+							Discover my hard skills
 							<br />
-							Découvrez mes compétences
+							Découvrez mes compétences technique
 						</td>
 					</tr>
 					<br />
