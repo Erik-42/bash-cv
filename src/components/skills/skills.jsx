@@ -67,11 +67,11 @@ export default function Skills() {
 							</tr>
 							<tr>
 								<td>NGinx</td>
-								<td>▰▰▰▰▰▰▰▰▱▱ 80%</td>
+								<td>▰▰▰▰▰▱▱▱▱▱ 50%</td>
 							</tr>
 							<tr>
 								<td>Swagger</td>
-								<td>▰▰▰▱▱▱▱▱▱▱ 80%</td>
+								<td>▰▰▰▰▱▱▱▱▱▱ 40%</td>
 							</tr>
 						</tbody>
 					</table>
@@ -83,7 +83,7 @@ export default function Skills() {
 						<tbody>
 							<tr>
 								<td>Figma</td>
-								<td>▰▰▰▰▰▰▱▱▱▱ 60%</td>
+								<td>▰▰▰▰▰▰▰▱▱▱ 70%</td>
 							</tr>
 							<tr>
 								<td>PhotoShop</td>
@@ -95,7 +95,7 @@ export default function Skills() {
 							</tr>
 							<tr>
 								<td>InkScape</td>
-								<td>▰▰▰▰▰▰▱▱▱▱ 60%</td>
+								<td>▰▰▰▰▰▱▱▱▱▱ 50%</td>
 							</tr>
 						</tbody>
 					</table>
@@ -107,19 +107,19 @@ export default function Skills() {
 						<tbody>
 							<tr>
 								<td>WordPress</td>
-								<td>▰▰▰▰▰▰▱▱▱▱ 60%</td>
+								<td>▰▰▰▰▰▰▱▱▱▱ 50%</td>
 							</tr>
 							<tr>
 								<td>Joomla</td>
-								<td>▰▰▰▰▰▰▱▱▱▱ 60%</td>
+								<td>▰▰▰▰▰▱▱▱▱▱ 50%</td>
 							</tr>
 							<tr>
 								<td>Drupal</td>
-								<td>▰▰▰▰▰▰▱▱▱▱ 60%</td>
+								<td>▰▰▰▰▰▱▱▱▱▱ 50%</td>
 							</tr>
 							<tr>
 								<td>Jira</td>
-								<td>▰▰▰▰▰▰▱▱▱▱ 60%</td>
+								<td>▰▰▰▰▰▱▱▱▱▱ 60%</td>
 							</tr>
 							<tr>
 								<td>Notion</td>
