@@ -85,11 +85,17 @@
 			}
 		}
 		&__professional {
+			h3 {
+				padding: 0 0 1rem 1rem;
+			}
 			&__title {
+				padding: 0 0 1rem 1rem;
 			}
 			&__description {
+				padding: 0 0 1rem 2rem;
 			}
 			&__img {
+				width: 50%;
 			}
 		}
 	}

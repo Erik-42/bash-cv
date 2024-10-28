@@ -156,37 +156,51 @@ export default function Projects() {
 			<h2 className='projects__title'>Projects:</h2>
 			<div className='projects__list'>
 				<div className='projects__list__professional'>
+					<h3>Projets Professionnel:</h3>
+
 					<div className='projects__list__professional-1 project__item'>
 						<h4 className='projects__list__professional__title'>
-							Projet personnel 1:
+							Projet Professionnel 1:
 						</h4>
 						<p className='projects__list__professional__description'>
 							Une application de gestion de tâches personnelle utilisant React
 							et Node.js.
 						</p>
-						<img className='projects__list__professional__img' src='' alt='' />
+						<img
+							className='projects__list__professional__img'
+							src={sportSee}
+							alt={sportSee}
+						/>{" "}
 					</div>
 
 					<div className='projects__list__professional-2 project__item'>
 						<h4 className='projects__list__professional__title'>
-							Projet personnel 2:
+							Projet Professionnel 2:
 						</h4>
 						<p className='projects__list__professional__description'>
 							Une application de gestion de tâches personnelle utilisant React
 							et Node.js.
 						</p>
-						<img className='projects__list__professional__img' src='' alt='' />
+						<img
+							className='projects__list__professional__img'
+							src={argentBank}
+							alt={argentBank}
+						/>{" "}
 					</div>
 
 					<div className='projects__list__professional-3 project__item'>
 						<h4 className='projects__list__professional__title'>
-							Projet personnel 3:
+							Projet Professionnel 3:
 						</h4>
 						<p className='projects__list__professional__description'>
 							Une application de gestion de tâches personnelle utilisant React
 							et Node.js.
 						</p>
-						<img className='projects__list__professional__img' src='' alt='' />
+						<img
+							className='projects__list__professional__img'
+							src={wealthHealth}
+							alt={wealthHealth}
+						/>{" "}
 					</div>
 				</div>
 
@@ -207,8 +221,8 @@ export default function Projects() {
 							<a className='projects__list__personal__link' href='#'>
 								<img
 									className='projects__list__personal__img'
-									src={projetPerso1}
-									alt={projetPerso1}
+									src={cEtD}
+									alt={cEtD}
 								/>
 							</a>
 						</div>
@@ -222,7 +236,11 @@ export default function Projects() {
 							Une application de gestion de tâches personnelle utilisant React
 							et Node.js.
 						</p>
-						<img className='projects__list__personal__img' src='' alt='' />
+						<img
+							className='projects__list__personal__img'
+							src={raidTolkien}
+							alt={raidTolkien}
+						/>{" "}
 					</div>
 
 					<div className='projects__list__personal-3 project__item'>
@@ -233,7 +251,11 @@ export default function Projects() {
 							Une application de gestion de tâches personnelle utilisant React
 							et Node.js.
 						</p>
-						<img className='projects__list__personal__img' src='' alt='' />
+						<img
+							className='projects__list__personal__img'
+							src={bashPortfolio}
+							alt={bashPortfolio}
+						/>{" "}
 					</div>
 				</div>
 			</div>
