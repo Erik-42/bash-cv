@@ -3,36 +3,34 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	width: 20rem; 
-	padding: 2rem 1rem; 
-	background-color: var(
-		--sidebarBgColor
-	); 
-	text-align: center; 
+	width: 20rem;
+	padding: 2rem 1rem;
+	background-color: var(--sidebarBgColor);
+	text-align: center;
 	position: fixed;
 
 	&__logo {
-		width: 80%; 
+		width: 80%;
 		margin-bottom: 1rem;
 	}
 
 	&__titleName {
 		color: var(--sidebarFontColor);
 		font-size: 2rem;
-		margin: 1rem 0; 
-		display: none; 
+		margin: 1rem 0;
+		display: none;
 	}
 
 	&__titlePhoto {
-		width: 80%; 
+		width: 50%;
 		margin-bottom: 1rem;
 	}
 
 	&__bio {
-		font-size: 12px;
+		font-size: 11px;
 		width: 80%;
 		margin: 1rem 0;
-		line-height: 1.5; 
-		text-align: justify; 
+		line-height: 1.5;
+		text-align: justify;
 	}
 }

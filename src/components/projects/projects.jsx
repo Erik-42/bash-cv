@@ -114,7 +114,8 @@ export function ResumeProjects() {
 								<br />
 								Site développé en React Redux
 								<br />
-								https://github.com/Erik-42/raidtolkien
+								https://git Une application de gestion de tâches personnelle
+								utilisant React et Node.js.
 							</p>
 							<a
 								className='resumeProjects__wrapper__professional__container__img'
@@ -160,11 +161,15 @@ export default function Projects() {
 
 					<div className='projects__list__professional-1 project__item'>
 						<h4 className='projects__list__professional__title'>
-							Projet Professionnel 1:
+							Projet SportSee:
 						</h4>
 						<p className='projects__list__professional__description'>
-							Une application de gestion de tâches personnelle utilisant React
-							et Node.js.
+							Développez un tableau de bord d'analytics avec React
+							<br />
+							https://github.com/Erik-42/openclassroom-projet_12-sportsee
+							<br />
+							Site développé dans le cadre de ma formation "Développeur
+							d'applications JavaScript React"
 						</p>
 						<img
 							className='projects__list__professional__img'
@@ -175,11 +180,15 @@ export default function Projects() {
 
 					<div className='projects__list__professional-2 project__item'>
 						<h4 className='projects__list__professional__title'>
-							Projet Professionnel 2:
+							Projet ArgentBank:
 						</h4>
 						<p className='projects__list__professional__description'>
-							Une application de gestion de tâches personnelle utilisant React
-							et Node.js.
+							Utilisez une API pour un compte utilisateur bancaire avec React
+							<br />
+							https://github.com/Erik-42/openclassroom-projet_13-argentbank
+							<br />
+							Site développé dans le cadre de ma formation "Développeur
+							d'applications JavaScript React"
 						</p>
 						<img
 							className='projects__list__professional__img'
@@ -190,11 +199,17 @@ export default function Projects() {
 
 					<div className='projects__list__professional-3 project__item'>
 						<h4 className='projects__list__professional__title'>
-							Projet Professionnel 3:
+							Projet wealth-Health RH:
 						</h4>
 						<p className='projects__list__professional__description'>
-							Une application de gestion de tâches personnelle utilisant React
-							et Node.js.
+							Faites passer une librairie jQuery vers React
+							<br />
+							https://github.com/Erik-42/openclassroom-projet_14-wealthhealth
+							<br />
+							https://github.com/Erik-42/openclassroom-projet_14-wealthhealth-npm
+							<br />
+							Site développé dans le cadre de ma formation "Développeur
+							d'applications JavaScript React"
 						</p>
 						<img
 							className='projects__list__professional__img'
@@ -211,12 +226,15 @@ export default function Projects() {
 						id='projet1'
 						className='projects__list__personal-1 project__item'>
 						<h4 className='projects__list__personal__title'>
-							Titre Projet personnel 1:
+							Projet Cidre & Dragon:
 						</h4>
 						<div className='projects__list__personal__container'>
 							<p className='projects__list__personal__description'>
-								Une application de gestion de tâches personnelle utilisant React
-								et Node.js.
+								Site du festival Cidre & Dragon
+								<br />
+								Site développé sous Joomla
+								<br />
+								https://github.com/Erik-42/CidreEtDragon
 							</p>
 							<a className='projects__list__personal__link' href='#'>
 								<img
@@ -230,11 +248,15 @@ export default function Projects() {
 
 					<div className='projects__list__personal-2 project__item'>
 						<h4 className='projects__list__personal__title'>
-							Projet personnel 2:
+							Projet Le raid Tolkien:
 						</h4>
 						<p className='projects__list__personal__description'>
-							Une application de gestion de tâches personnelle utilisant React
-							et Node.js.
+							Site de l'association "Le Raid Tolkien"
+							<br />
+							Site développé en React Redux
+							<br />
+							https://git Une application de gestion de tâches personnelle
+							utilisant React et Node.js.
 						</p>
 						<img
 							className='projects__list__personal__img'
@@ -245,11 +267,16 @@ export default function Projects() {
 
 					<div className='projects__list__personal-3 project__item'>
 						<h4 className='projects__list__personal__title'>
-							Projet personnel 3:
+							Projet Portfolio:
 						</h4>
 						<p className='projects__list__personal__description'>
-							Une application de gestion de tâches personnelle utilisant React
-							et Node.js.
+							Mon portfolio
+							<br />
+							Site développé en React Redux sur la base du site
+							<br />
+							<a href='#'>Bash-CV</a>
+							<br />
+							https://github.com/Erik-42/bash-cv
 						</p>
 						<img
 							className='projects__list__personal__img'
