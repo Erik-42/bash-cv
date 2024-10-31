@@ -62,17 +62,22 @@
 	}
 }
 .resumeProjects__item {
-	padding: 0 0 1rem 2rem;
+	padding: 1rem;
+	margin: 0 0 1rem;
+	border: solid 1px black;
 }
 
+.projects__item {
+	padding: 1rem;
+	margin: 0 0 1rem;
+	border: solid 1px black;
+}
 .projects {
-	&__title {
-		padding: 0 0 1rem 0;
-	}
 	&__list {
 		&__personal {
 			h3 {
-				padding: 0 0 1rem 1rem;
+				padding: 1rem;
+				margin: 1rem;
 			}
 			&__title {
 				padding: 0 0 1rem 1rem;
@@ -82,11 +87,25 @@
 			}
 			&__img {
 				width: 50%;
+				box-shadow: 0rem 0rem 1rem 0rem darkslategray;
+			}
+			&__header {
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				gap: 1rem;
+				&__title {
+					padding: 0 0 1rem 0;
+				}
+				&__logo {
+					width: 20%;
+				}
 			}
 		}
 		&__professional {
 			h3 {
 				padding: 0 0 1rem 1rem;
+				margin: 1rem;
 			}
 			&__title {
 				padding: 0 0 1rem 1rem;
@@ -96,8 +115,22 @@
 			}
 			&__img {
 				width: 50%;
+				box-shadow: 0rem 0rem 1rem 0rem darkslategray;
+			}
+			&__header {
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				gap: 1rem;
+				&__title {
+					padding: 0 0 1rem 0;
+				}
+				&__logo {
+					width: 20%;
+				}
 			}
 		}
 	}
 }
+
 // Projects

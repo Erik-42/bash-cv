@@ -1,10 +1,21 @@
 import React from "react";
 import "./__projects.scss";
-import sportSee from "../../assets/img/Projets-pro/logoSportSee.png";
-import argentBank from "../../assets/img/Projets-pro/argentBankLogo.png";
-import wealthHealth from "../../assets/img/Projets-pro/logo-wealthhealth-nobackground.svg";
+import logoSportSee from "../../assets/img/Projets-pro/logoSportSee.png";
+import sportSee from "../../assets/img/Projets-pro/SportSee.png";
+
+import logoArgentBank from "../../assets/img/Projets-pro/argentBankLogo.png";
+import argentBank from "../../assets/img/Projets-pro/ArgentBank.png";
+
+import logoWealthHealth from "../../assets/img/Projets-pro/logo-wealthhealth-nobackground.svg";
+import wealthHealth from "../../assets/img/Projets-pro/Wealth-Health0.png";
+
+import logoCEtD from "../../assets/img/Projets-perso/Logo-Festival-Grand-Format-Fond-Transparent-001.png";
 import cEtD from "../../assets/img/Projets-perso/CetD_2023.webp";
+
+import logoRaidTolkien from "../../assets/img/Projets-perso/RT_2018_jaunesb.svg";
 import raidTolkien from "../../assets/img/Projets-perso/Le-Raid-Tolkien.webp";
+
+import logoBashPortfolio from "../../assets/img/Projets-perso/logo.svg";
 import bashPortfolio from "../../assets/img/Projets-perso/Erik-Mesen-portfolio.png";
 
 export function ResumeProjects() {
@@ -159,10 +170,17 @@ export default function Projects() {
 				<div className='projects__list__professional'>
 					<h3>Projets Professionnel:</h3>
 
-					<div className='projects__list__professional-1 project__item'>
-						<h4 className='projects__list__professional__title'>
-							Projet SportSee:
-						</h4>
+					<div className='projects__list__professional-1 projects__item'>
+						<div className='projects__list__professional__header'>
+							<h4 className='projects__list__professional__header__title'>
+								Projet SportSee:
+							</h4>
+							<img
+								className='projects__list__professional__header__logo'
+								src={logoSportSee}
+								alt={logoSportSee}
+							/>
+						</div>
 						<p className='projects__list__professional__description'>
 							Développez un tableau de bord d'analytics avec React
 							<br />
@@ -175,13 +193,20 @@ export default function Projects() {
 							className='projects__list__professional__img'
 							src={sportSee}
 							alt={sportSee}
-						/>{" "}
+						/>
 					</div>
 
-					<div className='projects__list__professional-2 project__item'>
-						<h4 className='projects__list__professional__title'>
-							Projet ArgentBank:
-						</h4>
+					<div className='projects__list__professional-2 projects__item'>
+						<div className='projects__list__professional__header'>
+							<h4 className='projects__list__professional__header__title'>
+								Projet ArgentBank:
+							</h4>
+							<img
+								className='projects__list__professional__header__logo'
+								src={logoArgentBank}
+								alt={logoArgentBank}
+							/>
+						</div>
 						<p className='projects__list__professional__description'>
 							Utilisez une API pour un compte utilisateur bancaire avec React
 							<br />
@@ -197,10 +222,17 @@ export default function Projects() {
 						/>{" "}
 					</div>
 
-					<div className='projects__list__professional-3 project__item'>
-						<h4 className='projects__list__professional__title'>
-							Projet wealth-Health RH:
-						</h4>
+					<div className='projects__list__professional-3 projects__item'>
+						<div className='projects__list__professional__header'>
+							<h4 className='projects__list__professional__header__title'>
+								Projet Wealth-Health RH:
+							</h4>
+							<img
+								className='projects__list__professional__header__logo'
+								src={logoWealthHealth}
+								alt={logoWealthHealth}
+							/>
+						</div>
 						<p className='projects__list__professional__description'>
 							Faites passer une librairie jQuery vers React
 							<br />
@@ -224,10 +256,17 @@ export default function Projects() {
 
 					<div
 						id='projet1'
-						className='projects__list__personal-1 project__item'>
-						<h4 className='projects__list__personal__title'>
-							Projet Cidre & Dragon:
-						</h4>
+						className='projects__list__personal-1 projects__item'>
+						<div className='projects__list__professional__header'>
+							<h4 className='projects__list__professional__header__title'>
+								Projet Cidre & Dragon:
+							</h4>
+							<img
+								className='projects__list__professional__header__logo'
+								src={logoCEtD}
+								alt={logoCEtD}
+							/>
+						</div>
 						<div className='projects__list__personal__container'>
 							<p className='projects__list__personal__description'>
 								Site du festival Cidre & Dragon
@@ -246,10 +285,17 @@ export default function Projects() {
 						</div>
 					</div>
 
-					<div className='projects__list__personal-2 project__item'>
-						<h4 className='projects__list__personal__title'>
-							Projet Le raid Tolkien:
-						</h4>
+					<div className='projects__list__personal-2 projects__item'>
+						<div className='projects__list__professional__header'>
+							<h4 className='projects__list__professional__header__title'>
+								Projet Le Raid Tolkien:
+							</h4>
+							<img
+								className='projects__list__professional__header__logo'
+								src={logoRaidTolkien}
+								alt={logoRaidTolkien}
+							/>
+						</div>
 						<p className='projects__list__personal__description'>
 							Site de l'association "Le Raid Tolkien"
 							<br />
@@ -265,10 +311,17 @@ export default function Projects() {
 						/>{" "}
 					</div>
 
-					<div className='projects__list__personal-3 project__item'>
-						<h4 className='projects__list__personal__title'>
-							Projet Portfolio:
-						</h4>
+					<div className='projects__list__personal-3 projects__item'>
+						<div className='projects__list__professional__header'>
+							<h4 className='projects__list__professional__header__title'>
+								Projet Mon Portfolio:
+							</h4>
+							<img
+								className='projects__list__professional__header__logo'
+								src={logoBashPortfolio}
+								alt={logoBashPortfolio}
+							/>
+						</div>
 						<p className='projects__list__personal__description'>
 							Mon portfolio
 							<br />
