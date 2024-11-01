@@ -6,29 +6,6 @@
 		padding: 0 0 1rem 0;
 	}
 	&__wrapper {
-		&__personal {
-			padding: 0 0 1rem 0;
-
-			h3 {
-				padding: 0 0 1rem 1rem;
-				color: var(--skillsTitleColor);
-			}
-			&__title {
-				padding: 0 0 1rem 0;
-				color: darkgoldenrod;
-			}
-			&__container {
-				display: flex;
-				align-items: center;
-				gap: 1rem;
-				&__text {
-					padding: 0 0 0 1rem;
-				}
-				&__img {
-					width: 25%;
-				}
-			}
-		}
 		&__professional {
 			padding: 0 0 1rem 0;
 
@@ -44,28 +21,64 @@
 				display: flex;
 				align-items: center;
 				gap: 1rem;
+				justify-content: space-between;
 				&__text {
 					padding: 0 0 0 1rem;
 				}
 				&__img {
-					width: 25%;
+					img {
+						width: 10rem;
+						box-shadow: 0rem 0rem 1rem 0rem darkslategray;
+					}
+				}
+			}
+		}
+
+		&__personal {
+			padding: 0 0 1rem 0;
+
+			h3 {
+				padding: 0 0 1rem 1rem;
+				color: var(--skillsTitleColor);
+			}
+			&__title {
+				padding: 0 0 1rem 0;
+				color: darkgoldenrod;
+			}
+			&__container {
+				display: flex;
+				align-items: center;
+				gap: 1rem;
+				justify-content: space-between;
+				&__text {
+					padding: 0 0 0 1rem;
+				}
+				&__img {
+					img {
+						width: 10rem;
+					}
 				}
 			}
 		}
 	}
 }
 .resumeProjects__item {
-	padding: 0 0 1rem 2rem;
+	padding: 1rem;
+	margin: 0 0 1rem;
+	border: solid 1px black;
 }
 
+.projects__item {
+	padding: 1rem;
+	margin: 0 0 1rem;
+	border: solid 1px black;
+}
 .projects {
-	&__title {
-		padding: 0 0 1rem 0;
-	}
 	&__list {
 		&__personal {
 			h3 {
-				padding: 0 0 1rem 1rem;
+				padding: 1rem;
+				margin: 1rem;
 			}
 			&__title {
 				padding: 0 0 1rem 1rem;
@@ -74,17 +87,54 @@
 				padding: 0 0 1rem 2rem;
 			}
 			&__img {
-				width: 50%;
+				width: 30%;
+				box-shadow: 0rem 0rem 1rem 0rem darkslategray;
+			}
+			&__header {
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				gap: 1rem;
+				margin: 1rem 0;
+				&__title {
+					// padding: 0 0 1rem 0;
+				}
+				&__logo {
+					width: 20%;
+				}
 			}
 		}
 		&__professional {
+			h3 {
+				padding: 0 0 1rem 1rem;
+				margin: 1rem;
+			}
 			&__title {
+				padding: 0 0 1rem 1rem;
 			}
 			&__description {
+				padding: 0 0 1rem 2rem;
 			}
 			&__img {
+				width: 30%;
+				box-shadow: 0rem 0rem 1rem 0rem darkslategray;
+			}
+			&__header {
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				gap: 1rem;
+				margin: 1rem 0;
+
+				&__title {
+					// padding: 0 0 1rem 0;
+				}
+				&__logo {
+					width: 20%;
+				}
 			}
 		}
 	}
 }
+
 // Projects
