@@ -184,7 +184,9 @@ export default function Projects() {
 						<p className='projects__list__professional__description'>
 							Développez un tableau de bord d'analytics avec React
 							<br />
+							<br />
 							https://github.com/Erik-42/openclassroom-projet_12-sportsee
+							<br />
 							<br />
 							Site développé dans le cadre de ma formation "Développeur
 							d'applications JavaScript React"
@@ -210,7 +212,9 @@ export default function Projects() {
 						<p className='projects__list__professional__description'>
 							Utilisez une API pour un compte utilisateur bancaire avec React
 							<br />
+							<br />
 							https://github.com/Erik-42/openclassroom-projet_13-argentbank
+							<br />
 							<br />
 							Site développé dans le cadre de ma formation "Développeur
 							d'applications JavaScript React"
@@ -236,9 +240,11 @@ export default function Projects() {
 						<p className='projects__list__professional__description'>
 							Faites passer une librairie jQuery vers React
 							<br />
+							<br />
 							https://github.com/Erik-42/openclassroom-projet_14-wealthhealth
 							<br />
 							https://github.com/Erik-42/openclassroom-projet_14-wealthhealth-npm
+							<br />
 							<br />
 							Site développé dans le cadre de ma formation "Développeur
 							d'applications JavaScript React"
@@ -271,7 +277,9 @@ export default function Projects() {
 							<p className='projects__list__personal__description'>
 								Site du festival Cidre & Dragon
 								<br />
+								<br />
 								Site développé sous Joomla
+								<br />
 								<br />
 								https://github.com/Erik-42/CidreEtDragon
 							</p>
@@ -299,7 +307,9 @@ export default function Projects() {
 						<p className='projects__list__personal__description'>
 							Site de l'association "Le Raid Tolkien"
 							<br />
+							<br />
 							Site développé en React Redux
+							<br />
 							<br />
 							https://git Une application de gestion de tâches personnelle
 							utilisant React et Node.js.
@@ -325,9 +335,12 @@ export default function Projects() {
 						<p className='projects__list__personal__description'>
 							Mon portfolio
 							<br />
+							<br />
 							Site développé en React Redux sur la base du site
 							<br />
+							<br />
 							<a href='#'>Bash-CV</a>
+							<br />
 							<br />
 							https://github.com/Erik-42/bash-cv
 						</p>
