@@ -28,6 +28,7 @@
 				&__img {
 					img {
 						width: 10rem;
+						box-shadow: 0rem 0rem 1rem 0rem darkslategray;
 					}
 				}
 			}
@@ -94,8 +95,9 @@
 				align-items: center;
 				justify-content: flex-start;
 				gap: 1rem;
+				margin: 1rem 0;
 				&__title {
-					padding: 0 0 1rem 0;
+					// padding: 0 0 1rem 0;
 				}
 				&__logo {
 					width: 20%;
@@ -122,8 +124,10 @@
 				align-items: center;
 				justify-content: flex-start;
 				gap: 1rem;
+				margin: 1rem 0;
+
 				&__title {
-					padding: 0 0 1rem 0;
+					// padding: 0 0 1rem 0;
 				}
 				&__logo {
 					width: 20%;

@@ -173,7 +173,7 @@ export default function Projects() {
 					<div className='projects__list__professional-1 projects__item'>
 						<div className='projects__list__professional__header'>
 							<h4 className='projects__list__professional__header__title'>
-								Projet SportSee:
+								SportSee:
 							</h4>
 							<img
 								className='projects__list__professional__header__logo'
@@ -199,7 +199,7 @@ export default function Projects() {
 					<div className='projects__list__professional-2 projects__item'>
 						<div className='projects__list__professional__header'>
 							<h4 className='projects__list__professional__header__title'>
-								Projet ArgentBank:
+								ArgentBank:
 							</h4>
 							<img
 								className='projects__list__professional__header__logo'
@@ -225,7 +225,7 @@ export default function Projects() {
 					<div className='projects__list__professional-3 projects__item'>
 						<div className='projects__list__professional__header'>
 							<h4 className='projects__list__professional__header__title'>
-								Projet Wealth-Health RH:
+								Wealth-Health RH:
 							</h4>
 							<img
 								className='projects__list__professional__header__logo'
@@ -259,7 +259,7 @@ export default function Projects() {
 						className='projects__list__personal-1 projects__item'>
 						<div className='projects__list__professional__header'>
 							<h4 className='projects__list__professional__header__title'>
-								Projet Cidre & Dragon:
+								Cidre & Dragon:
 							</h4>
 							<img
 								className='projects__list__professional__header__logo'
@@ -288,7 +288,7 @@ export default function Projects() {
 					<div className='projects__list__personal-2 projects__item'>
 						<div className='projects__list__professional__header'>
 							<h4 className='projects__list__professional__header__title'>
-								Projet Le Raid Tolkien:
+								Le Raid Tolkien:
 							</h4>
 							<img
 								className='projects__list__professional__header__logo'
@@ -314,7 +314,7 @@ export default function Projects() {
 					<div className='projects__list__personal-3 projects__item'>
 						<div className='projects__list__professional__header'>
 							<h4 className='projects__list__professional__header__title'>
-								Projet Mon Portfolio:
+								Mon Portfolio:
 							</h4>
 							<img
 								className='projects__list__professional__header__logo'
