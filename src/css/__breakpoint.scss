@@ -1,34 +1,60 @@
 /* Breakpoints */
 @media (min-width: 1024px) {
-  .container {
-    flex-direction: row;
-  }
+	.container {
+		flex-direction: row;
+	}
 
-  #sidebar {
-    flex-basis: 20%;
-    margin: 2%;
-    margin-top: 0.5%;
-    height: 100%;
-  }
+	#sidebar {
+		flex-basis: 20%;
+		margin: 2%;
+		margin-top: 0.5%;
+		height: 100%;
+	}
 
-  #terminal {
-    flex-basis: 72%;
-    margin: 2% auto;
-  }
+	#terminal {
+		flex-basis: 72%;
+		margin: 2% auto;
+	}
 
-  body {
-    overflow-x: hidden;
-  }
+	body {
+		overflow-x: hidden;
+	}
 }
 
 @media (max-width: 1024px) {
-  #sidebar h1 {
-    font-size: 10vw;
-  }
+	#sidebar h1 {
+		font-size: 10vw;
+	}
 }
 
 @media (max-width: 768px) {
-  .skills-container {
-    grid-template-columns: 1fr;
-  }
+	.skills-container {
+		grid-template-columns: 1fr;
+	}
+	.sidebar {
+		display: none;
+	}
+	.footer {
+		width: 100%;
+	}
+	.home__content {
+		left: 0;
+		padding: 0;
+		margin: 1rem;
+	}
+	.userInput__wrapper {
+		width: auto;
+	}
+	.userInput__prompt {
+		width: 93%;
+	}
+	.userInput__comment {
+		top: 5rem;
+	}
+	.rickroll__content {
+		position: relative;
+		top: 3rem;
+	}
+}
+@media (max-width: 550px) {
 }
