@@ -32,7 +32,9 @@
 		grid-template-columns: 1fr;
 	}
 	.sidebar {
-		display: none;
+		// display: none;
+		position: absolute;
+		right: 0;
 	}
 	.footer {
 		width: 100%;

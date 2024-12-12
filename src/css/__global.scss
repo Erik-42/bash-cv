@@ -1,23 +1,24 @@
-@import './__variables';
+@import "./__variables";
 
 /* Réinitialisation globale */
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
-  font-family: var(--font-default);
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: var(--font-default);
 }
 
 body {
-  font-family: var(--font-default);
-  color: var(--primaryFontColor);
-  background-color: var(--primaryBgColor);
+	font-family: var(--font-default);
+	color: var(--primaryFontColor);
+	background-color: var(--primaryBgColor);
 }
 
 a {
-  color: inherit;
-  font-weight: inherit;
-  text-decoration: inherit;
+	color: inherit;
+	font-weight: inherit;
+	text-decoration: inherit;
+	cursor: pointer;
 }

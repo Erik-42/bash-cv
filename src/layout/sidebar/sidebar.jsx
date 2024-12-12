@@ -1,20 +1,21 @@
 import React from "react";
-import "./__sidebar.scss"; 
-import photo from "../../assets/img/Photo-Mesen.jpg"; 
-import logo from "../../assets/logos/Logo_v2.png"; 
+import "./__sidebar.scss";
+import photo from "../../assets/logos/logo-Erik-42-souris.svg";
+import logo from "../../assets/logos/Logo_v2.png";
 
 export default function Sidebar() {
 	return (
-		<aside className="sidebar">
-			<img className="sidebar__logo" src={logo} alt="Logo" />
-
-			<h1 className="sidebar__titleName">Erik Mesen</h1>
+		<aside className='sidebar'>
+			<a href='./'>
+				<img className='sidebar__logo' src={logo} alt='Logo' />
+			</a>
+			<h1 className='sidebar__titleName'>Erik Mesen</h1>
 			<img
-				className="sidebar__titlePhoto"
+				className='sidebar__titlePhoto'
 				src={photo}
-				alt="Photo de profil de Erik Mesen"
+				alt='Photo de profil de Erik Mesen'
 			/>
-			<p className="sidebar__bio">
+			<p className='sidebar__bio'>
 				Créateur d'expériences numériques fluides
 				<br /> <br />
 				En tant que Concepteur & Développeur Fullstack JS/React, je combine mes
