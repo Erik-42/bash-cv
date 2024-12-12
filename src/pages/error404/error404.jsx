@@ -1,27 +1,10 @@
 import React from "react";
 import "./__error404.scss";
 
-// export default function Error404() {
-// 	return (
-// 		<div class='container'>
-// 			<div class='error'>
-// 				<h1>404</h1>
-// 				<p>Oups ! La page que vous recherchez n'existe pas.</p>
-// 				<a href='/' class='btn'>
-// 					Retour à l'accueil
-// 				</a>
-// 			</div>
-// 			<div class='illustration'>
-// 				<img src={img404} alt='Illustration error 404, page non trouvée' />
-// 			</div>
-// 		</div>
-// 	);
-// }
-
-const NotFound = () => {
+export default function Error404() {
 	return (
 		<div className='not-found'>
-			<h1>404: Page non trouvée</h1>
+			<h1>404: Page no found</h1>
 			<div className='bash'>
 				<pre>
 					{`$ cd basillecorp.dev
@@ -43,6 +26,4 @@ _`}
 			</div>
 		</div>
 	);
-};
-
-export default NotFound;
+}
