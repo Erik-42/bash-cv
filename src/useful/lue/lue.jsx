@@ -7,9 +7,8 @@ import "./__lue.scss";
 
 export default function CommandLue(event) {
 	if (event.key === "Enter") {
-		const txtInput = event.target.value.trim().toLowerCase(); // Utiliser event.target pour obtenir la valeur
+		const txtInput = event.target.value.trim().toLowerCase();
 		const commands = {
-			Help,
 			life,
 			universe,
 			everything,
@@ -17,7 +16,7 @@ export default function CommandLue(event) {
 
 		const towelElement = document.getElementById("towel");
 		towelElement.innerHTML = commands[txtInput] ? commands[txtInput]() : help();
-		event.target.value = ""; // Réinitialiser la valeur de l'input
+		event.target.value = "";
 	}
 	// On s'assure que le DOM est entièrement chargé avant d'ajouter l'écouteur d'événements
 	document.addEventListener("DOMContentLoaded", () => {
