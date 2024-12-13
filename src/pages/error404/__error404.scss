@@ -1,57 +1,85 @@
 body {
-	margin: 0;
-	padding: 0;
 	font-family: "Courier New", Courier, monospace;
 }
 
-.not-found {
-	background-color: #1e1e1e;
-	color: #c3e88d;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	text-align: center;
-}
-
 h1 {
-	color: #ff5370;
-}
-
-.bash {
-	border: 1px solid #444;
-	background-color: #2e2e2e;
-	padding: 20px;
-	border-radius: 8px;
-	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-	width: 80%;
-	max-width: 600px;
-	margin-top: 20px;
-	text-align: left;
-}
-
-pre {
-	margin: 0;
-	white-space: pre-wrap;
-	word-wrap: break-word;
-}
-
-a {
-	color: #82aaff;
-	text-decoration: none;
+	color: var(--error404TitleColor);
 }
 
 a:hover {
 	text-decoration: underline;
 }
 
-.blinking {
-	animation: blink 1s steps(2, start) infinite;
+.error404 {
+	background-color: var(--primaryBgColor);
+	color: var(--sidebarFontColor);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+	&__bash {
+		border: 1px solid #444;
+		background-color: var(--bashBgColor);
+		padding: 20px;
+		border-radius: 8px;
+		box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+		width: 80%;
+		max-width: 600px;
+		margin-top: 20px;
+		text-align: left;
+		&__pre {
+			margin: 0;
+			white-space: pre-wrap;
+			word-wrap: break-word;
+			&__prompt {
+				&__input {
+					width: 50%;
+					font-size: 15px;
+					background-color: var(--bashBgColor);
+					color: var(--sidebarFontColor);
+					border: none;
+					padding: 0.5rem;
+					box-sizing: border-box;
+
+					&:focus {
+						outline: none;
+						border: none;
+					}
+					/* Création du curseur personnalisé plus large avec un pseudo-élément */
+					&::after {
+						content: "";
+						position: absolute;
+						right: 0;
+						top: 50%;
+						width: 3px; /* Définit la largeur du curseur */
+						height: 1.2rem; /* Ajuste la hauteur du curseur */
+						background-color: var(
+							--cursorColor,
+							#258c25
+						); /* Couleur du curseur */
+						transform: translateY(-50%);
+						animation: blink-caret 1s steps(1) infinite;
+					}
+				}
+			}
+		}
+	}
 }
+
+// .blinking {
+// 	animation: blink 1s steps(2, start) infinite;
+// }
 
 @keyframes blink {
 	50% {
 		opacity: 0;
 	}
+}
+.footer {
+	width: 100%;
+}
+.help {
+	color: var(--CopyrightFontColor);
 }
