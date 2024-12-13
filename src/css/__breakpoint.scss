@@ -32,9 +32,22 @@
 		grid-template-columns: 1fr;
 	}
 	.sidebar {
-		// display: none;
+		// width: 100%;
 		position: absolute;
 		right: 0;
+	}
+	.sidebar__logo {
+		position: relative;
+		z-index: 9;
+		top: -1rem;
+	}
+	.sidebar__titlePhoto {
+		position: relative;
+		top: 6rem;
+	}
+	.sidebar__bio {
+		position: relative;
+		top: 4rem;
 	}
 	.footer {
 		width: 100%;
@@ -45,13 +58,22 @@
 		margin: 1rem;
 	}
 	.userInput__wrapper {
-		width: auto;
+		width: 100%;
+		top: 2rem;
 	}
 	.userInput__prompt {
 		width: 93%;
 	}
 	.userInput__comment {
-		top: 5rem;
+		top: 7rem;
+	}
+	.userInput__output {
+		position: relative;
+		top: 9rem;
+		height: 100%;
+	}
+	.terminal {
+		height: 150%;
 	}
 	.rickroll__content {
 		position: relative;

@@ -41,14 +41,14 @@ export default function UserInput() {
 			}
 		};
 
-		// Essaye d'obtenir le nom du PC (ce qui n'est pas possible côté client).
-		// Récupération direct de l'adresse IP à défaut.
+		// Récupération directe de l'adresse IP à défaut.
 		fetchIPAddress();
 	}, []);
 
 	const commandProcessor = (e) => {
 		if (e.key === "Enter") {
 			const txtInput = e.target.value.trim().toLowerCase();
+
 			// Liste des commandes disponibles et leurs composants correspondants
 			const commands = {
 				help: () => <Help />,
@@ -74,9 +74,19 @@ export default function UserInput() {
 				),
 			};
 
-			// Mettre à jour l'état pour afficher le composant correspondant à la commande
-			setActiveCommand(commands[txtInput] ? commands[txtInput]() : <Help />);
-			e.target.value = "";
+			// Gestion des commandes vides
+			if (!txtInput) {
+				setActiveCommand(
+					<p className='infos-help'>
+						Saisissez "help" pour obtenir une liste des commandes disponibles.
+					</p>
+				);
+			} else {
+				// Mettre à jour l'état pour afficher le composant correspondant à la commande
+				setActiveCommand(commands[txtInput] ? commands[txtInput]() : <Help />);
+			}
+
+			e.target.value = ""; // Réinitialiser la valeur de l'input
 		}
 	};
 
@@ -104,7 +114,8 @@ export default function UserInput() {
 				/>
 			</div>
 			<p className='userInput__comment'>
-				Pour plus d'informations sur chaque section entrez la commande approprié
+				Pour plus d'informations sur chaque section, entrez la commande
+				appropriée
 			</p>
 			<div className='userInput__output'>{activeCommand}</div>
 		</div>
