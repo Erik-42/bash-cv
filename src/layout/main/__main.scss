@@ -1,38 +1,38 @@
-:root {
-	--primaryFontColor: #fff;
-	--injectedBgColor: #1d1f21;
-}
+// :root {
+// 	--primaryFontColor: #fff;
+// 	--injectedBgColor: #1d1f21;
+// }
 
-// main.scss
-// Injected Content
-#injected {
-	font-size: 15px;
-	color: var(--primaryFontColor);
-	text-align: justify;
-	margin-top: 2%;
-	background-color: var(--injectedBgColor);
+// // main.scss
+// // Injected Content
+// #injected {
+// 	font-size: 15px;
+// 	color: var(--primaryFontColor);
+// 	text-align: justify;
+// 	margin-top: 2%;
+// 	background-color: var(--injectedBgColor);
 
-	ul {
-		list-style: none;
-	}
+// 	ul {
+// 		list-style: none;
+// 	}
 
-	li,
-	th,
-	td {
-		padding: 7px 25px 7px 45px;
-		text-align: left;
-	}
-}
+// 	li,
+// 	th,
+// 	td {
+// 		padding: 7px 25px 7px 45px;
+// 		text-align: left;
+// 	}
+// }
 
-// User Input
-#userInput {
-	margin-top: 20px;
-}
+// // User Input
+// #userInput {
+// 	margin-top: 20px;
+// }
 
-// Flex Container
-.main_terminal {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-}
+// // Flex Container
+// .main_terminal {
+// 	display: flex;
+// 	flex-direction: row;
+// 	flex-wrap: wrap;
+// 	justify-content: flex-start;
+// }

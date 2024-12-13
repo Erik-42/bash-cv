@@ -5,7 +5,7 @@ import logo from "../../assets/logos/Logo_v2.png";
 
 export default function Sidebar() {
 	return (
-		<aside className='sidebar'>
+		<aside className={'sidebar ${hasOutput ? "sidebar--hidden" : ""}'}>
 			<a href='./'>
 				<img className='sidebar__logo' src={logo} alt='Logo' />
 			</a>

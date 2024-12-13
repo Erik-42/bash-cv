@@ -6,6 +6,7 @@
 
 	&__table {
 		color: var(--helpTextColor);
+		text-align: left;
 		tr {
 			display: flex;
 			flex-direction: row;
@@ -14,6 +15,10 @@
 
 		&__command {
 			width: 8rem;
+			margin: 0 0.5rem 0 0;
+		}
+		&__description {
+			width: 100%;
 		}
 	}
 }

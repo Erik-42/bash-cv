@@ -12,7 +12,7 @@ import CV, { CvDownload } from "../cv/cv";
 import Rickroll from "../rickroll/rickroll";
 import Credits from "../credits/credits";
 
-export default function UserInput() {
+export default function UserInput({ setHasOutput }) {
 	const [activeCommand, setActiveCommand] = useState(null);
 	const [rootValue, setRootValue] = useState("root@Erik_Mesen's Website:~$ ");
 	const spanRef = useRef(null);
@@ -85,7 +85,8 @@ export default function UserInput() {
 				// Mettre à jour l'état pour afficher le composant correspondant à la commande
 				setActiveCommand(commands[txtInput] ? commands[txtInput]() : <Help />);
 			}
-
+			// Met à jour l'état pour la Sidebar
+			setHasOutput(!!txtInput);
 			e.target.value = ""; // Réinitialiser la valeur de l'input
 		}
 	};

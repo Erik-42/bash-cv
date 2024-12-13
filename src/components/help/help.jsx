@@ -9,16 +9,16 @@ export default function Help() {
 				<tbody>
 					<tr>
 						<td className='helpContainer__table__command'>all</td>
-						<td>
+						<td className='helpContainer__table__description'>
 							Show me all the information
 							<br />
-							Montre moi toutes les informations
+							Toutes mes informations
 						</td>
 					</tr>
 					<br />
 					<tr>
 						<td className='helpContainer__table__command'>about</td>
-						<td>
+						<td className='helpContainer__table__description'>
 							Everything you ever wanted to know about Erik Mesen
 							<br />
 							Tout ce que vous avez toujours voulu savoir sur moi
@@ -27,7 +27,7 @@ export default function Help() {
 					<br />
 					<tr>
 						<td className='helpContainer__table__command'>soft</td>
-						<td>
+						<td className='helpContainer__table__description'>
 							Discover my soft skills
 							<br />
 							Découvrez mon savoir être
@@ -36,7 +36,7 @@ export default function Help() {
 					<br />
 					<tr>
 						<td className='helpContainer__table__command'>skills</td>
-						<td>
+						<td className='helpContainer__table__description'>
 							Discover my hard skills
 							<br />
 							Découvrez mes compétences technique
@@ -45,7 +45,7 @@ export default function Help() {
 					<br />
 					<tr>
 						<td className='helpContainer__table__command'>projects</td>
-						<td>
+						<td className='helpContainer__table__description'>
 							Discover the projects I have completed
 							<br />
 							Découvrez les projets que j'ai réalisés
@@ -54,7 +54,7 @@ export default function Help() {
 					<br />
 					<tr>
 						<td className='helpContainer__table__command'>links</td>
-						<td>
+						<td className='helpContainer__table__description'>
 							My different social media profiles
 							<br />
 							Mes différents profils sur les réseaux sociaux
@@ -63,7 +63,7 @@ export default function Help() {
 					<br />
 					<tr>
 						<td className='helpContainer__table__command'>contact</td>
-						<td>
+						<td className='helpContainer__table__description'>
 							How to contact me
 							<br />
 							Comment me contacter
@@ -72,7 +72,7 @@ export default function Help() {
 					<br />
 					<tr>
 						<td className='helpContainer__table__command'>cv</td>
-						<td>
+						<td className='helpContainer__table__description'>
 							Download my CV
 							<br />
 							Téléchargez mon CV
@@ -81,12 +81,14 @@ export default function Help() {
 					<br />
 					<tr>
 						<td className='helpContainer__table__command'>rickroll</td>
-						<td>Never Gonna Give You Up</td>
+						<td className='helpContainer__table__description'>
+							Never Gonna Give You Up
+						</td>
 					</tr>
 					<br />
 					<tr>
 						<td className='helpContainer__table__command'>credits</td>
-						<td>
+						<td className='helpContainer__table__description'>
 							Credits for the site
 							<br />
 							Crédits pour le site
