@@ -1,26 +1,31 @@
 .cv {
 	&__content {
 		display: flex;
+		flex-wrap: wrap;
 		align-items: flex-start;
-		justify-content: space-between; 
-		gap: 1rem; 
+		justify-content: space-between;
+		gap: 1rem;
 	}
+
 	&__title {
 		color: var(--projectsTitleColor);
 		padding: 0 0 1rem 0;
 	}
+
 	&__text {
-		flex: 1; 
-		margin: 0;
+		flex: 1;
+		margin: 0 0 1rem;
 		padding: 0 1rem;
 	}
 
 	&__iframe {
 		flex: 1;
-		width: 50%; 
-		height: 400px; 
-		min-width: 300px; 
+		width: 100%;
+		min-width: 300px;
+		height: 450px;
+		border: none;
 	}
+
 	&__download {
 		text-decoration: underline;
 	}
